@@ -1,0 +1,218 @@
+[
+    {
+        "supplier_contract": "bolt_variable_online_2024",
+        "rate_occurrence": "monthly",
+        "day_time_type": "",
+        "amount_eur": "7.54",
+        "amount_eur_tincl": "7.99",
+        "datetime_start": "",
+        "datetime_end": ""
+    },
+    {
+        "supplier_contract": "bolt_variable_online_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "simple",
+        "amount_eur": "0.0881",
+        "amount_eur_tincl": "0.0934",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_variable_online_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "day",
+        "amount_eur": "0.0881",
+        "amount_eur_tincl": "0.0934",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_variable_online_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "night",
+        "amount_eur": "0.0881",
+        "amount_eur_tincl": "0.0934",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_variable_online_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "night_excl",
+        "amount_eur": "0.0881",
+        "amount_eur_tincl": "0.0934",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_variable_online_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "inject",
+        "amount_eur": "-0.0565",
+        "amount_eur_tincl": "-0.0599",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_variable_2024",
+        "rate_occurrence": "monthly",
+        "day_time_type": "",
+        "amount_eur": "10.37",
+        "amount_eur_tincl": "10.99",
+        "datetime_start": "",
+        "datetime_end": ""
+    },
+    {
+        "supplier_contract": "bolt_variable_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "simple",
+        "amount_eur": "0.0881",
+        "amount_eur_tincl": "0.0934",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_variable_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "day",
+        "amount_eur": "0.0881",
+        "amount_eur_tincl": "0.0934",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_variable_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "night",
+        "amount_eur": "0.0881",
+        "amount_eur_tincl": "0.0934",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_variable_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "night_excl",
+        "amount_eur": "0.0881",
+        "amount_eur_tincl": "0.0934",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_variable_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "inject",
+        "amount_eur": "-0.0565",
+        "amount_eur_tincl": "-0.0599",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_fixed_2024",
+        "rate_occurrence": "monthly",
+        "day_time_type": "",
+        "amount_eur": "15.41",
+        "amount_eur_tincl": "16.33",
+        "datetime_start": "",
+        "datetime_end": ""
+    },
+    {
+        "supplier_contract": "bolt_fixed_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "simple",
+        "amount_eur": "10.37",
+        "amount_eur_tincl": "10.99",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_fixed_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "day",
+        "amount_eur": "10.37",
+        "amount_eur_tincl": "10.99",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_fixed_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "night",
+        "amount_eur": "10.37",
+        "amount_eur_tincl": "10.99",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_fixed_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "night_excl",
+        "amount_eur": "10.37",
+        "amount_eur_tincl": "10.99",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "bolt_fixed_2024",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "inject",
+        "amount_eur": "-0.0565",
+        "amount_eur_tincl": "-0.0599",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-06-30 00:00:00"
+    },
+    {
+        "supplier_contract": "total_pixel_next_fixed_2024_1",
+        "rate_occurrence": "annual",
+        "day_time_type": "",
+        "amount_eur": "150.94",
+        "amount_eur_tincl": "160",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-09-01 00:00:00"
+    },
+    {
+        "supplier_contract": "total_pixel_next_fixed_2024_1",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "simple",
+        "amount_eur": "0.14",
+        "amount_eur_tincl": "0.1529",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-09-01 00:00:00"
+    },
+    {
+        "supplier_contract": "total_pixel_next_fixed_2024_1",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "day",
+        "amount_eur": "0.16",
+        "amount_eur_tincl": "0.1686",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-09-01 00:00:00"
+    },
+    {
+        "supplier_contract": "total_pixel_next_fixed_2024_1",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "night",
+        "amount_eur": "0.13",
+        "amount_eur_tincl": "0.1388",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-09-01 00:00:00"
+    },
+    {
+        "supplier_contract": "total_pixel_next_fixed_2024_1",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "night_excl",
+        "amount_eur": "0.13",
+        "amount_eur_tincl": "0.1404",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-09-01 00:00:00"
+    },
+    {
+        "supplier_contract": "total_pixel_next_fixed_2024_1",
+        "rate_occurrence": "per_kwh",
+        "day_time_type": "",
+        "amount_eur": "0.01",
+        "amount_eur_tincl": "0.0158",
+        "datetime_start": "2024-06-01 00:00:00",
+        "datetime_end": "2024-09-01 00:00:00"
+    }
+]

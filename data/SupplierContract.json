@@ -1,0 +1,34 @@
+[
+    {
+        "slug": "bolt_variable_2024",
+        "name": "Bolt Variable",
+        "supplier": "bolt",
+        "contract_type": "variable",
+        "valid_from": "2024-01-01",
+        "valid_to": "2024-12-31"
+    },
+    {
+        "slug": "bolt_variable_online_2024",
+        "name": "Bolt Variable Online",
+        "supplier": "bolt",
+        "contract_type": "variable",
+        "valid_from": "2024-01-01",
+        "valid_to": "2024-12-31"
+    },
+    {
+        "slug": "bolt_fixed_2024",
+        "name": "Bolt Fixe",
+        "supplier": "bolt",
+        "contract_type": "fixed",
+        "valid_from": "2024-01-01",
+        "valid_to": "2024-12-31"
+    },
+    {
+        "slug": "total_pixel_next_fixed_2024_1",
+        "name": "Total Pixel Next Fixed",
+        "supplier": "total",
+        "contract_type": "fixed",
+        "valid_from": "2024-01-01",
+        "valid_to": "2024-12-31"
+    }
+]
