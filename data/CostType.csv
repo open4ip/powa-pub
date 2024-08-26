@@ -1,0 +1,16 @@
+slug,name
+distribution_simple,Coûts de distribution - Simple
+distribution_day,Coûts de distribution - Jour
+distribution_night,Coûts de distribution - Nuit
+distribution_night_excl,Coûts de distribution - Exclusif nuit
+transport,Coûts de transport
+management,Tarif gestion des données / Activités de mesure et de comptage/Terme fixe 
+prosumer,Tarif prosumer
+management,Tarif de gestion des données
+capacity,Tarif de capacité
+accise,Droit d'accise spécial
+energy_contribution,Contribution sur l'énergie
+connection,Redevance de raccordement
+green_certs,Contribution Certificats verts
+cogen,Contribution Cogénération
+public_service,Obligations de service publique
