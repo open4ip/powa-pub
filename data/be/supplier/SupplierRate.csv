@@ -1,25 +1,33 @@
-supplier_contract,rate_occurrence,day_time_type,amount_eur,amount_eur_tincl,datetime_start,datetime_end
-bolt_variable_online_2024,monthly,,7.54,7.99,,
-bolt_variable_online_2024,per_kwh,simple,0.0881,0.0934, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_variable_online_2024,per_kwh,day,0.0881,0.0934, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_variable_online_2024,per_kwh,night,0.0881,0.0934, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_variable_online_2024,per_kwh,night_excl,0.0881,0.0934, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_variable_online_2024,per_kwh,inject,-0.0565,-0.0599, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_variable_2024,monthly,,10.37,10.99,,
-bolt_variable_2024,per_kwh,simple,0.0881,0.0934, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_variable_2024,per_kwh,day,0.0881,0.0934, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_variable_2024,per_kwh,night,0.0881,0.0934, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_variable_2024,per_kwh,night_excl,0.0881,0.0934, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_variable_2024,per_kwh,inject,-0.0565,-0.0599, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_fixed_2024,monthly,,15.41,16.33,,
-bolt_fixed_2024,per_kwh,simple,10.37,10.99, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_fixed_2024,per_kwh,day,10.37,10.99, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_fixed_2024,per_kwh,night,10.37,10.99, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_fixed_2024,per_kwh,night_excl,10.37,10.99, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-bolt_fixed_2024,per_kwh,inject,-0.0565,-0.0599, 2024-06-01 00:00:00, 2024-06-30 00:00:00
-total_pixel_next_fixed_2024_1,annual,,150.94,160, 2024-06-01 00:00:00, 2024-09-01 00:00:00
-total_pixel_next_fixed_2024_1,per_kwh,simple,0.14,0.1529, 2024-06-01 00:00:00, 2024-09-01 00:00:00
-total_pixel_next_fixed_2024_1,per_kwh,day,0.16,0.1686, 2024-06-01 00:00:00, 2024-09-01 00:00:00
-total_pixel_next_fixed_2024_1,per_kwh,night,0.13,0.1388, 2024-06-01 00:00:00, 2024-09-01 00:00:00
-total_pixel_next_fixed_2024_1,per_kwh,night_excl,0.13,0.1404, 2024-06-01 00:00:00, 2024-09-01 00:00:00
-total_pixel_next_fixed_2024_1,per_kwh,,0.01,0.0158, 2024-06-01 00:00:00, 2024-09-01 00:00:00
+supplier_contract,rate_occurrence,direction,day_time_type,amount_eur,amount_eur_tincl
+bolt_variable_online_2024,monthly,,,7.54,7.99
+bolt_variable_online_2024,per_kwh,consumer,simple,0.0881,0.0934
+bolt_variable_online_2024,per_kwh,consumer,day,0.0881,0.0934
+bolt_variable_online_2024,per_kwh,consumer,night,0.0881,0.0934
+bolt_variable_online_2024,per_kwh,consumer,night_excl,0.0881,0.0934
+bolt_variable_online_2024,per_kwh,producer,inject,-0.0565,-0.0599
+bolt_variable_2024,monthly,,,10.37,10.99
+bolt_variable_2024,per_kwh,consumer,simple,0.0881,0.0934
+bolt_variable_2024,per_kwh,consumer,day,0.0881,0.0934
+bolt_variable_2024,per_kwh,consumer,night,0.0881,0.0934
+bolt_variable_2024,per_kwh,consumer,night_excl,0.0881,0.0934
+bolt_variable_2024,per_kwh,producer,inject,-0.0565,-0.0599
+bolt_fixed_2024,monthly,,,15.41,16.33
+bolt_fixed_2024,per_kwh,consumer,simple,10.37,10.99
+bolt_fixed_2024,per_kwh,consumer,day,10.37,10.99
+bolt_fixed_2024,per_kwh,consumer,night,10.37,10.99
+bolt_fixed_2024,per_kwh,consumer,night_excl,10.37,10.99
+bolt_fixed_2024,per_kwh,producer,inject,-0.0565,-0.0599
+total_pixel_next_fixed_2024_1,annual,,,150.94,160
+total_pixel_next_fixed_2024_1,per_kwh,consumer,simple,0.14,0.1529
+total_pixel_next_fixed_2024_1,per_kwh,consumer,day,0.16,0.1686
+total_pixel_next_fixed_2024_1,per_kwh,consumer,night,0.13,0.1388
+total_pixel_next_fixed_2024_1,per_kwh,consumer,night_excl,0.13,0.1404
+total_pixel_next_fixed_2024_1,per_kwh,producer,inject,0.01,0.0158
+engie_drive_fixed,annual,,,61.90,74.9
+engie_drive_fixed,per_kwh,consumer,simple,0.13267,0.16053
+engie_drive_fixed,per_kwh,consumer,day,0.15830,0.19154
+engie_drive_fixed,per_kwh,consumer,night,0.11330,0.13709
+engie_drive_fixed,per_kwh,consumer,night_excl,0.11911,0.14412
+engie_drive_fixed,per_kwh,producer,simple,0.05407,0.06543
+engie_drive_fixed,per_kwh,producer,day,0.06367,0.07704
+engie_drive_fixed,per_kwh,producer,night,0.02951,0.03571
