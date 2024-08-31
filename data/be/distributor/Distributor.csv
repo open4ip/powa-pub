@@ -1,23 +1,23 @@
-slug,name,region,,
-sibelga,Sibelga,bru,,
-aieg,AIEG,wal,,
-aiesh,AIESH,wal,,
-ores_brabant_wallon,ORES (Brabant Wallon),wal,,
-ores_est,ORES (EST),wal,,
-ores_hainaut_electricite,ORES (Hainaut Electricité),wal,,
-ores_luxembourg,ORES (Luxembourg),wal,,
-ores_mouscron,ORES (Mouscron),wal,,
-ores_namur,ORES (Namur),wal,,
-ores_verviers,ORES (Verviers),wal,,
-tecteo_resa,TECTEO RESA,wal,,
-wavre,WAVRE,wal,,
-fluvius_gaselwest,Fluvius (Gaselwest),vl,,         
-fluvius_imewo,Fluvius (Imewo),vl,,
-fluvius_intergem,Fluvius (Intergem),vl,,
-fluvius_iveka,Fluvius (Iveka),vl,,
-fluvius_iverlek,Fluvius (Iverlek),vl,,
-fluvius_pbe,Fluvius (Pbe),vl,,
-fluvius_sibelgas,Fluvius (Sibelgas),vl,,
-fluvius_antwerpen,Fluvius (Antwerpen),vl,,
-fluvius_limburg,Fluvius (Limburg),vl,,
-fluvius_west,Fluvius (West),vl,,
+slug,name,country,region
+sibelga,Sibelga,be,bru
+aieg,AIEG,be,wal
+aiesh,AIESH,be,wal
+ores_brabant_wallon,ORES (Brabant Wallon),be,wal
+ores_est,ORES (EST),be,wal
+ores_hainaut_electricite,ORES (Hainaut Electricité),be,wal
+ores_luxembourg,ORES (Luxembourg),be,wal
+ores_mouscron,ORES (Mouscron),be,wal
+ores_namur,ORES (Namur),be,wal
+ores_verviers,ORES (Verviers),be,wal
+tecteo_resa,TECTEO RESA,be,wal
+wavre,WAVRE,be,wal
+fluvius_gaselwest,Fluvius (Gaselwest),be,vl
+fluvius_imewo,Fluvius (Imewo),be,vl
+fluvius_intergem,Fluvius (Intergem),be,vl
+fluvius_iveka,Fluvius (Iveka),be,vl
+fluvius_iverlek,Fluvius (Iverlek),be,vl
+fluvius_pbe,Fluvius (Pbe),be,vl
+fluvius_sibelgas,Fluvius (Sibelgas),be,vl
+fluvius_antwerpen,Fluvius (Antwerpen),be,vl
+fluvius_limburg,Fluvius (Limburg),be,vl
+fluvius_west,Fluvius (West),be,vl
