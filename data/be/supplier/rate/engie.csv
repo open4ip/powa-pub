@@ -1,0 +1,9 @@
+supplier_contract,rate_occurrence,direction,day_time_type,amount_eur,amount_eur_tincl
+engie_drive_fixed,annual,,,61.90,74.9
+engie_drive_fixed,per_kwh,consumer,simple,0.13267,0.16053
+engie_drive_fixed,per_kwh,consumer,day,0.15830,0.19154
+engie_drive_fixed,per_kwh,consumer,night,0.11330,0.13709
+engie_drive_fixed,per_kwh,consumer,night_excl,0.11911,0.14412
+engie_drive_fixed,per_kwh,producer,simple,0.05407,0.06543
+engie_drive_fixed,per_kwh,producer,day,0.06367,0.07704
+engie_drive_fixed,per_kwh,producer,night,0.02951,0.03571

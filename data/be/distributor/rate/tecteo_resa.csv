@@ -1,0 +1,12 @@
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
+tecteo_resa,,simple,per_kwh,distribution_simple,,,0.09311320755,0.0987,,, 2024-01-01, 2024-12-31
+tecteo_resa,,day,per_kwh,distribution_day,,,0.1037735849,0.11,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+tecteo_resa,,night,per_kwh,distribution_night,,,0.05688679245,0.0603,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+tecteo_resa,,night_excl,per_kwh,distribution_night_excl,,,0.04952830189,0.0525,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+tecteo_resa,,,per_kwh,transport,,,0.02556603774,0.0271,,, 2024-01-01, 2024-12-31
+tecteo_resa,,,annual,management,,,24.33018868,25.79,,, 2024-01-01, 2024-12-31
+tecteo_resa,,,annual_per_kw,prosumer,,,66.66981132,70.67,,, 2024-01-01, 2024-12-31
+tecteo_resa,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
+tecteo_resa,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
+tecteo_resa,,,per_kwh,connection,,,0.0007075471698,0.00075,,, 2024-01-01, 2024-12-31
+tecteo_resa,,,per_kwh,green_certs,,,0.02858490566,0.0303,,, 2024-01-01, 2024-12-31

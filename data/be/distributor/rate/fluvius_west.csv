@@ -1,0 +1,13 @@
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
+fluvius_west,,,annual,management,,,13.16037736,13.95,,, 2024-01-01, 2024-12-31
+fluvius_west,comm,,annual_per_kw,capacity,,,41.80188679,44.31,,, 2024-01-01, 2024-12-31
+fluvius_west,comm,simple,per_kwh,distribution_simple,,,0.04547169811,0.0482,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_west,comm,night_excl,per_kwh,distribution_night_excl,,,0.03433962264,0.0364,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_west,classic,,annual,capacity,,,104.490566,110.76,,, 2024-01-01, 2024-12-31
+fluvius_west,classic,simple,per_kwh,distribution_simple,,,0.07037735849,0.0746,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_west,classic,night_excl,per_kwh,distribution_night_excl,,,0.05924528302,0.0628,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_west,classic,,annual_per_kw,prosumer,,,47.51886792,50.37,,, 2024-01-01, 2024-12-31
+fluvius_west,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
+fluvius_west,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
+fluvius_west,,,per_kwh,green_certs,,,0.01141509434,0.0121,,, 2024-01-01, 2024-12-31
+fluvius_west,,,per_kwh,cogen,,,0.003962264151,0.0042,,, 2024-01-01, 2024-12-31

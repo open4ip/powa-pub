@@ -1,0 +1,13 @@
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
+fluvius_antwerpen,,,annual,management,,,13.16037736,13.95,,, 2024-01-01, 2024-12-31
+fluvius_antwerpen,comm,,annual_per_kw,capacity,,,37.96226415,40.24,,, 2024-01-01, 2024-12-31
+fluvius_antwerpen,comm,simple,per_kwh,distribution_simple,,,0.04330188679,0.0459,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_antwerpen,comm,night_excl,per_kwh,distribution_night_excl,,,0.03216981132,0.0341,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_antwerpen,classic,,annual,capacity,,,94.90566038,100.6,,, 2024-01-01, 2024-12-31
+fluvius_antwerpen,classic,simple,per_kwh,distribution_simple,,,0.06405660377,0.0679,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_antwerpen,classic,night_excl,per_kwh,distribution_night_excl,,,0.05283018868,0.056,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_antwerpen,classic,,annual_per_kw,prosumer,,,43.25471698,45.85,,, 2024-01-01, 2024-12-31
+fluvius_antwerpen,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
+fluvius_antwerpen,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
+fluvius_antwerpen,,,per_kwh,green_certs,,,0.01141509434,0.0121,,, 2024-01-01, 2024-12-31
+fluvius_antwerpen,,,per_kwh,cogen,,,0.003962264151,0.0042,,, 2024-01-01, 2024-12-31

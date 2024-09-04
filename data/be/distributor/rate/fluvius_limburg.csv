@@ -1,0 +1,13 @@
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
+fluvius_limburg,,,annual,management,,,13.16037736,13.95,,, 2024-01-01, 2024-12-31
+fluvius_limburg,comm,,annual_per_kw,capacity,,,38.97169811,41.31,,, 2024-01-01, 2024-12-31
+fluvius_limburg,comm,simple,per_kwh,distribution_simple,,,0.0508490566,0.0539,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_limburg,comm,night_excl,per_kwh,distribution_night_excl,,,0.03801886792,0.0403,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_limburg,classic,,annual,capacity,,,97.43396226,103.28,,, 2024-01-01, 2024-12-31
+fluvius_limburg,classic,simple,per_kwh,distribution_simple,,,0.07528301887,0.0798,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_limburg,classic,night_excl,per_kwh,distribution_night_excl,,,0.06245283019,0.0662,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_limburg,classic,,annual_per_kw,prosumer,,,50.83962264,53.89,,, 2024-01-01, 2024-12-31
+fluvius_limburg,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
+fluvius_limburg,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
+fluvius_limburg,,,per_kwh,green_certs,,,0.01141509434,0.0121,,, 2024-01-01, 2024-12-31
+fluvius_limburg,,,per_kwh,cogen,,,0.003962264151,0.0042,,, 2024-01-01, 2024-12-31

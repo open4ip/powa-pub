@@ -1,0 +1,13 @@
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
+fluvius_intergem,,,annual,management,,,13.16037736,13.95,,, 2024-01-01, 2024-12-31
+fluvius_intergem,comm,,annual_per_kw,capacity,,,35.12264151,37.23,,, 2024-01-01, 2024-12-31
+fluvius_intergem,comm,simple,per_kwh,distribution_simple,,,0.03820754717,0.0405,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_intergem,comm,night_excl,per_kwh,distribution_night_excl,,,0.02905660377,0.0308,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_intergem,classic,,annual,capacity,,,87.81132075,93.08,,, 2024-01-01, 2024-12-31
+fluvius_intergem,classic,simple,per_kwh,distribution_simple,,,0.06056603774,0.0642,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_intergem,classic,night_excl,per_kwh,distribution_night_excl,,,0.05141509434,0.0545,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_intergem,classic,,annual_per_kw,prosumer,,,40.9245283,43.38,,, 2024-01-01, 2024-12-31
+fluvius_intergem,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
+fluvius_intergem,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
+fluvius_intergem,,,per_kwh,green_certs,,,0.01141509434,0.0121,,, 2024-01-01, 2024-12-31
+fluvius_intergem,,,per_kwh,cogen,,,0.003962264151,0.0042,,, 2024-01-01, 2024-12-31

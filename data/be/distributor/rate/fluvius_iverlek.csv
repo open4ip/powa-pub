@@ -1,0 +1,13 @@
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
+fluvius_iverlek,,,annual,management,,,13.16037736,13.95,,, 2024-01-01, 2024-12-31
+fluvius_iverlek,comm,,annual_per_kw,capacity,,,39.55660377,41.93,,, 2024-01-01, 2024-12-31
+fluvius_iverlek,comm,simple,per_kwh,distribution_simple,,,0.04330188679,0.0459,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_iverlek,comm,night_excl,per_kwh,distribution_night_excl,,,0.03264150943,0.0346,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_iverlek,classic,,annual,capacity,,,98.87735849,104.81,,, 2024-01-01, 2024-12-31
+fluvius_iverlek,classic,simple,per_kwh,distribution_simple,,,0.06735849057,0.0714,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_iverlek,classic,night_excl,per_kwh,distribution_night_excl,,,0.05669811321,0.0601,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_iverlek,classic,,annual_per_kw,prosumer,,,45.47169811,48.2,,, 2024-01-01, 2024-12-31
+fluvius_iverlek,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
+fluvius_iverlek,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
+fluvius_iverlek,,,per_kwh,green_certs,,,0.01141509434,0.0121,,, 2024-01-01, 2024-12-31
+fluvius_iverlek,,,per_kwh,cogen,,,0.003962264151,0.0042,,, 2024-01-01, 2024-12-31

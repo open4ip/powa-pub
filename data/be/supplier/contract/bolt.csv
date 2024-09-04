@@ -1,0 +1,4 @@
+supplier,slug,name_en,name_fr,name_nl,contract_type,valid_from,valid_to
+bolt,bolt_variable_2024,Bolt Variable,Bolt Variable,Bolt Variable,variable,2024-01-01,2024-12-31
+bolt,bolt_variable_online_2024,Bolt Variable Online,Bolt Variable Online,Bolt Variable Online,variable,2024-01-01,2024-12-31
+bolt,bolt_fixed_2024,Bolt Fixe,Bolt Fixe,Bolt Fix,fixed,2024-01-01,2024-12-31

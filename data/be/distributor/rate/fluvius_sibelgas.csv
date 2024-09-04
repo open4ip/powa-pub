@@ -1,0 +1,13 @@
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
+fluvius_sibelgas,,,annual,management,,,13.16037736,13.95,,, 2024-01-01, 2024-12-31
+fluvius_sibelgas,comm,,annual_per_kw,capacity,,,43.87735849,46.51,,, 2024-01-01, 2024-12-31
+fluvius_sibelgas,comm,simple,per_kwh,distribution_simple,,,0.04971698113,0.0527,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_sibelgas,comm,night_excl,per_kwh,distribution_night_excl,,,0.03735849057,0.0396,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_sibelgas,classic,,annual,capacity,,,109.6981132,116.28,,, 2024-01-01, 2024-12-31
+fluvius_sibelgas,classic,simple,per_kwh,distribution_simple,,,0.07424528302,0.0787,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+fluvius_sibelgas,classic,night_excl,per_kwh,distribution_night_excl,,,0.06188679245,0.0656,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+fluvius_sibelgas,classic,,annual_per_kw,prosumer,,,50.18867925,53.2,,, 2024-01-01, 2024-12-31
+fluvius_sibelgas,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
+fluvius_sibelgas,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
+fluvius_sibelgas,,,per_kwh,green_certs,,,0.01141509434,0.0121,,, 2024-01-01, 2024-12-31
+fluvius_sibelgas,,,per_kwh,cogen,,,0.003962264151,0.0042,,, 2024-01-01, 2024-12-31

@@ -1,0 +1,12 @@
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
+ores_brabant_wallon,,simple,per_kwh,distribution_simple,,,0.08556603774,0.0907,,, 2024-01-01, 2024-12-31
+ores_brabant_wallon,,day,per_kwh,distribution_day,,,0.0908490566,0.0963,6:00:00,22:00:00, 2024-01-01, 2024-12-31
+ores_brabant_wallon,,night,per_kwh,distribution_night,,,0.05339622642,0.0566,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+ores_brabant_wallon,,night_excl,per_kwh,distribution_night_excl,,,0.04386792453,0.0465,22:00:00,6:00:00, 2024-01-01, 2024-12-31
+ores_brabant_wallon,,,per_kwh,transport,,,0.02556603774,0.0271,,, 2024-01-01, 2024-12-31
+ores_brabant_wallon,,,annual,management,,,12.83018868,13.6,,, 2024-01-01, 2024-12-31
+ores_brabant_wallon,,,annual_per_kw,prosumer,,,62.44339623,66.19,,, 2024-01-01, 2024-12-31
+ores_brabant_wallon,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
+ores_brabant_wallon,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
+ores_brabant_wallon,,,per_kwh,connection,,,0.0007075471698,0.00075,,, 2024-01-01, 2024-12-31
+ores_brabant_wallon,,,per_kwh,green_certs,,,0.02858490566,0.0303,,, 2024-01-01, 2024-12-31
