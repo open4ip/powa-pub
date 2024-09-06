@@ -1,7 +1,7 @@
-supplier_contract,rate_occurrence,direction,day_time_type,amount_eur,amount_eur_tincl
-total_pixel_next_fixed_2024_1,annual,,,150.94,160
-total_pixel_next_fixed_2024_1,per_kwh,consumer,simple,0.14,0.1529
-total_pixel_next_fixed_2024_1,per_kwh,consumer,day,0.16,0.1686
-total_pixel_next_fixed_2024_1,per_kwh,consumer,night,0.13,0.1388
-total_pixel_next_fixed_2024_1,per_kwh,consumer,night_excl,0.13,0.1404
-total_pixel_next_fixed_2024_1,per_kwh,producer,inject,0.01,0.0158
+supplier_contract,rate_occurrence,direction,day_time_type,amount_eur,tax_pct
+total_pixel_next_fixed_2024_1,annual,,,150.94,6
+total_pixel_next_fixed_2024_1,per_kwh,consumer,simple,0.14,6
+total_pixel_next_fixed_2024_1,per_kwh,consumer,day,0.16,6
+total_pixel_next_fixed_2024_1,per_kwh,consumer,night,0.13,6
+total_pixel_next_fixed_2024_1,per_kwh,consumer,night_excl,0.13,6
+total_pixel_next_fixed_2024_1,per_kwh,producer,inject,0.01,6
