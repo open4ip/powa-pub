@@ -1,19 +1,100 @@
-distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
-sibelga,,simple,per_kwh,distribution_simple,,,0.08471698113,0.0898,,, 2024-01-01, 2024-12-31
-sibelga,,day,per_kwh,distribution_day,,,0.08471698113,0.0898,6:00:00,22:00:00, 2024-01-01, 2024-12-31
-sibelga,,night,per_kwh,distribution_night,,,0.06349056604,0.0673,22:00:00,6:00:00, 2024-01-01, 2024-12-31
-sibelga,,night_excl,per_kwh,distribution_night_excl,,,0.06349056604,0.0673,22:00:00,6:00:00, 2024-01-01, 2024-12-31
-sibelga,,,per_kwh,transport,,,0.01301886792,0.0138,,, 2024-01-01, 2024-12-31
-sibelga,,,annual,management,,,10.11320755,10.72,,, 2024-01-01, 2024-12-31
-sibelga,,,annual_per_kw,prosumer,,,0,0,,, 2024-01-01, 2024-12-31
-sibelga,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
-sibelga,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
-sibelga,,,per_kwh,green_certs,,,0.02669811321,0.0283,,, 2024-01-01, 2024-12-31
-sibelga,,,annual_per_kw_range,public_service,0,1.44,0,0,,, 2024-01-01, 2024-12-31
-sibelga,,,annual_per_kw_range,public_service,1.44,6,11.39622642,12.08,,, 2024-01-01, 2024-12-31
-sibelga,,,annual_per_kw_range,public_service,6,9.6,18.23584906,19.33,,, 2024-01-01, 2024-12-31
-sibelga,,,annual_per_kw_range,public_service,9.6,13,22.9245283,24.3,,, 2024-01-01, 2024-12-31
-sibelga,,,annual_per_kw_range,public_service,13,18,34.32075472,36.38,,, 2024-01-01, 2024-12-31
-sibelga,,,annual_per_kw_range,public_service,18,36,45.71698113,48.46,,, 2024-01-01, 2024-12-31
-sibelga,,,annual_per_kw_range,public_service,36,56,91.44339623,96.93,,, 2024-01-01, 2024-12-31
-sibelga,,,annual_per_kw_range,public_service,56,,148.5566038,157.47,,, 2024-01-01, 2024-12-31
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end,,,
+sibelga,smart,simple,per_kwh,distribution_simple,,,,21,,, 2022-01-01, 2022-02-28,,,
+sibelga,smart,day,per_kwh,distribution_day,,,0.0199120,21,7:00:00,22:00:00, 2022-01-01, 2022-02-28,,,
+sibelga,smart,night,per_kwh,distribution_night,,,0.0057940,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,
+sibelga,smart,night_excl,per_kwh,distribution_night_excl,,,,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,
+sibelga,smart,,annual_per_kw,peak,,,57.8839800,21,,, 2022-01-01, 2022-02-28,monthly peak,,
+sibelga,smart,,annual_per_kw,peak,,,,21,,, 2022-01-01, 2022-02-28,period peak,,
+sibelga,simple,simple,per_kwh,distribution_simple,,,,21,,, 2022-01-01, 2022-02-28,,,
+sibelga,simple,day,per_kwh,distribution_day,,,0.0497790,21,7:00:00,22:00:00, 2022-01-01, 2022-02-28,,,
+sibelga,simple,night,per_kwh,distribution_night,,,0.0298690,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,
+sibelga,simple,night_excl,per_kwh,distribution_night_excl,,,,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,
+sibelga,simple,,annual_per_kw,distribution,,,26.71,21,,, 2022-01-01, 2022-02-28,if installed power  <= 13kVA,,
+sibelga,simple,,annual_per_kw,distribution,,,53.41,21,,, 2022-01-01, 2022-02-28,if installed power  > 13kVA,,
+sibelga,simple,,annual,management,,,10.25,21,,, 2022-01-01, 2022-02-28,,,
+sibelga,smart,,annual,management,,,519.92,21,,, 2022-01-01, 2022-02-28,,,
+sibelga,,,annual_per_kw,prosumer,,,,21,,, 2022-01-01, 2022-02-28,,,
+sibelga,,,annual_per_kw,injection,,,,21,,, 2022-01-01, 2022-02-28,if installed power  > 10kVA,,
+sibelga,,,per_kwh,public_service,,,,21,,, 2022-01-01, 2022-02-28,,,
+sibelga,,,per_kwh,road_fee,,,0.0072420,21,,, 2022-01-01, 2022-02-28,,,
+sibelga,,,per_kwh,corp_tax,,,0.0040770,21,,, 2022-01-01, 2022-02-28,,,
+sibelga,,,per_kwh,other_tax,,,0.001,21,,, 2022-01-01, 2022-02-28,,,
+sibelga,,,per_kwh,reg_balance,,,,21,,, 2022-01-01, 2022-02-28,,,
+sibelga,,,per_kwh,connection,,,0.00070755,21,,, 2022-01-01, 2022-02-28,wallonia,?,0.00000
+sibelga,,,monthly,accise,,,0.04747442,21,,, 2022-01-01, 2022-02-28,federal,?,0.00000
+sibelga,,,per_kwh,energy_contribution,,,0.00192610,21,,, 2022-01-01, 2022-02-28,federal,?,0
+,,,,,,,,,,,,,,,
+sibelga,smart,simple,per_kwh,distribution_simple,,,,6,,, 2022-03-01, 2022-12-31,,,
+sibelga,smart,day,per_kwh,distribution_day,,,0.0199120,6,7:00:00,22:00:00, 2022-03-01, 2022-12-31,,,
+sibelga,smart,night,per_kwh,distribution_night,,,0.0057940,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,
+sibelga,smart,night_excl,per_kwh,distribution_night_excl,,,,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,
+sibelga,smart,,annual_per_kw,peak,,,57.8839800,6,,, 2022-03-01, 2022-12-31,monthly peak,,
+sibelga,smart,,annual_per_kw,peak,,,,6,,, 2022-03-01, 2022-12-31,period peak,,
+sibelga,simple,simple,per_kwh,distribution_simple,,,,6,,, 2022-03-01, 2022-12-31,,,
+sibelga,simple,day,per_kwh,distribution_day,,,0.0497790,6,7:00:00,22:00:00, 2022-03-01, 2022-12-31,,,
+sibelga,simple,night,per_kwh,distribution_night,,,0.0298690,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,
+sibelga,simple,night_excl,per_kwh,distribution_night_excl,,,,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,
+sibelga,simple,,annual_per_kw,distribution,,,26.71,6,,, 2022-03-01, 2022-12-31,if installed power  <= 13kVA,,
+sibelga,simple,,annual_per_kw,distribution,,,53.41,6,,, 2022-03-01, 2022-12-31,if installed power  > 13kVA,,
+sibelga,simple,,annual,management,,,10.25,6,,, 2022-03-01, 2022-12-31,,,
+sibelga,smart,,annual,management,,,519.92,6,,, 2022-03-01, 2022-12-31,,,
+sibelga,,,annual_per_kw,prosumer,,,,6,,, 2022-03-01, 2022-12-31,,,
+sibelga,,,annual_per_kw,injection,,,,6,,, 2022-03-01, 2022-12-31,if installed power  > 10kVA,,
+sibelga,,,per_kwh,public_service,,,,6,,, 2022-03-01, 2022-12-31,,,
+sibelga,,,per_kwh,road_fee,,,0.0072420,6,,, 2022-03-01, 2022-12-31,,,
+sibelga,,,per_kwh,corp_tax,,,0.0040770,6,,, 2022-03-01, 2022-12-31,,,
+sibelga,,,per_kwh,other_tax,,,0.001,6,,, 2022-03-01, 2022-12-31,,,
+sibelga,,,per_kwh,reg_balance,,,,6,,, 2022-03-01, 2022-12-31,,,
+sibelga,,,per_kwh,connection,,,0.00070755,6,,, 2022-03-01, 2022-12-31,wallonia,?,0.00000
+sibelga,,,monthly,accise,,,0.04747442,6,,, 2022-03-01, 2022-12-31,federal,?,0.00000
+sibelga,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2022-03-01, 2022-12-31,federal,?,0
+,,,,,,,,,,,,,,,
+sibelga,smart,simple,per_kwh,distribution_simple,,,,6,,, 2023-01-01, 2023-12-31,,,
+sibelga,smart,day,per_kwh,distribution_day,,,0.0206420,6,7:00:00,22:00:00, 2023-01-01, 2023-12-31,,,
+sibelga,smart,night,per_kwh,distribution_night,,,0.0068050,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,
+sibelga,smart,night_excl,per_kwh,distribution_night_excl,,,,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,
+sibelga,smart,,annual_per_kw,peak,,,61.5900240,6,,, 2023-01-01, 2023-12-31,monthly peak,,
+sibelga,smart,,annual_per_kw,peak,,,,6,,, 2023-01-01, 2023-12-31,period peak,,
+sibelga,simple,simple,per_kwh,distribution_simple,,,,6,,, 2023-01-01, 2023-12-31,,,
+sibelga,simple,day,per_kwh,distribution_day,,,0.0497790,6,7:00:00,22:00:00, 2023-01-01, 2023-12-31,,,
+sibelga,simple,night,per_kwh,distribution_night,,,0.0298690,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,
+sibelga,simple,night_excl,per_kwh,distribution_night_excl,,,,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,
+sibelga,simple,,annual_per_kw,distribution,,,26.96,6,,, 2023-01-01, 2023-12-31,if installed power  <= 13kVA,,
+sibelga,simple,,annual_per_kw,distribution,,,53.91,6,,, 2023-01-01, 2023-12-31,if installed power  > 13kVA,,
+sibelga,simple,,annual,management,,,10.15,6,,, 2023-01-01, 2023-12-31,,,
+sibelga,smart,,annual,management,,,516.02,6,,, 2023-01-01, 2023-12-31,,,
+sibelga,,,annual_per_kw,prosumer,,,,6,,, 2023-01-01, 2023-12-31,,,
+sibelga,,,annual_per_kw,injection,,,,6,,, 2023-01-01, 2023-12-31,if installed power  > 10kVA,,
+sibelga,,,per_kwh,public_service,,,0.014178,6,,, 2023-01-01, 2023-12-31,,,
+sibelga,,,per_kwh,road_fee,,,0.0079390,6,,, 2023-01-01, 2023-12-31,,,
+sibelga,,,per_kwh,corp_tax,,,0.0040770,6,,, 2023-01-01, 2023-12-31,,,
+sibelga,,,per_kwh,other_tax,,,0.004313,6,,, 2023-01-01, 2023-12-31,,,
+sibelga,,,per_kwh,reg_balance,,,,6,,, 2023-01-01, 2023-12-31,,,
+sibelga,,,per_kwh,connection,,,0.00070755,6,,, 2023-01-01, 2023-12-31,wallonia,?,0.00000
+sibelga,,,monthly,accise,,,0.04747442,6,,, 2023-01-01, 2023-12-31,federal,?,0.00000
+sibelga,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2023-01-01, 2023-12-31,federal,?,0
+,,,,,,,,,,,,,,,
+sibelga,smart,simple,per_kwh,distribution_simple,,,,6,,, 2024-01-01, 2024-12-31,,,
+sibelga,smart,day,per_kwh,distribution_day,,,0.0212810,6,7:00:00,22:00:00, 2024-01-01, 2024-12-31,,,
+sibelga,smart,night,per_kwh,distribution_night,,,0.0078750,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,
+sibelga,smart,night_excl,per_kwh,distribution_night_excl,,,,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,
+sibelga,smart,,annual_per_kw,peak,,,64.7953560,6,,, 2024-01-01, 2024-12-31,monthly peak,,
+sibelga,smart,,annual_per_kw,peak,,,,6,,, 2024-01-01, 2024-12-31,period peak,,
+sibelga,simple,simple,per_kwh,distribution_simple,,,,6,,, 2024-01-01, 2024-12-31,,,
+sibelga,simple,day,per_kwh,distribution_day,,,0.0532020,6,7:00:00,22:00:00, 2024-01-01, 2024-12-31,,,
+sibelga,simple,night,per_kwh,distribution_night,,,0.0319210,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,
+sibelga,simple,night_excl,per_kwh,distribution_night_excl,,,,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,
+sibelga,simple,,annual_per_kw,distribution,,,27.38,6,,, 2024-01-01, 2024-12-31,if installed power  <= 13kVA,,
+sibelga,simple,,annual_per_kw,distribution,,,54.76,6,,, 2024-01-01, 2024-12-31,if installed power  > 13kVA,,
+sibelga,simple,,annual,management,,,10.11,6,,, 2024-01-01, 2024-12-31,,,
+sibelga,smart,,annual,management,,,513.68,6,,, 2024-01-01, 2024-12-31,,,
+sibelga,,,annual_per_kw,prosumer,,,,6,,, 2024-01-01, 2024-12-31,,,
+sibelga,,,annual_per_kw,injection,,,,6,,, 2024-01-01, 2024-12-31,if installed power  > 10kVA,,
+sibelga,,,per_kwh,public_service,,,0.017092,6,,, 2024-01-01, 2024-12-31,,,
+sibelga,,,per_kwh,road_fee,,,0.0082670,6,,, 2024-01-01, 2024-12-31,,,
+sibelga,,,per_kwh,corp_tax,,,0.0053860,6,,, 2024-01-01, 2024-12-31,,,
+sibelga,,,per_kwh,other_tax,,,0.000804,6,,, 2024-01-01, 2024-12-31,,,
+sibelga,,,per_kwh,reg_balance,,,,6,,, 2024-01-01, 2024-12-31,,,
+sibelga,,,per_kwh,connection,,,0.00070755,6,,, 2024-01-01, 2024-12-31,wallonia,?,0.00000
+sibelga,,,monthly,accise,,,0.04747442,6,,, 2024-01-01, 2024-12-31,federal,?,0.00000
+sibelga,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2023-01-01, 2023-12-31,federal,?,0

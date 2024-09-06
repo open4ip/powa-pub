@@ -1,12 +1,88 @@
-distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
-ores_mouscron,,simple,per_kwh,distribution_simple,,,0.08556603774,0.0907,,, 2024-01-01, 2024-12-31
-ores_mouscron,,day,per_kwh,distribution_day,,,0.0908490566,0.0963,6:00:00,22:00:00, 2024-01-01, 2024-12-31
-ores_mouscron,,night,per_kwh,distribution_night,,,0.05339622642,0.0566,22:00:00,6:00:00, 2024-01-01, 2024-12-31
-ores_mouscron,,night_excl,per_kwh,distribution_night_excl,,,0.04386792453,0.0465,22:00:00,6:00:00, 2024-01-01, 2024-12-31
-ores_mouscron,,,per_kwh,transport,,,0.02556603774,0.0271,,, 2024-01-01, 2024-12-31
-ores_mouscron,,,annual,management,,,12.83018868,13.6,,, 2024-01-01, 2024-12-31
-ores_mouscron,,,annual_per_kw,prosumer,,,62.44339623,66.19,,, 2024-01-01, 2024-12-31
-ores_mouscron,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
-ores_mouscron,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
-ores_mouscron,,,per_kwh,connection,,,0.0007075471698,0.00075,,, 2024-01-01, 2024-12-31
-ores_mouscron,,,per_kwh,green_certs,,,0.02858490566,0.0303,,, 2024-01-01, 2024-12-31
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,tax_pct,time_of_day_start,time_of_day_end,date_start,date_end,,,,
+ores_mouscron,smart,simple,per_kwh,distribution_simple,,,0.0038299,21,,, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,smart,day,per_kwh,distribution_day,,,0.0038299,21,7:00:00,22:00:00, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,smart,night,per_kwh,distribution_night,,,0.0038299,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,smart,night_excl,per_kwh,distribution_night_excl,,,0.0038299,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,smart,,annual_per_kw,peak,,,6.4591294,21,,, 2022-01-01, 2022-02-28,monthly peak,,,
+ores_mouscron,smart,,annual_per_kw,peak,,,2.1530431,21,,, 2022-01-01, 2022-02-28,period peak,,,
+ores_mouscron,simple,simple,per_kwh,distribution_simple,,,0.0677812,21,,, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,simple,day,per_kwh,distribution_day,,,0.0729093,21,7:00:00,22:00:00, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,simple,night,per_kwh,distribution_night,,,0.0358681,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,simple,night_excl,per_kwh,distribution_night_excl,,,0.0262543,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,,,annual,management,,,12.95,21,,, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,,,annual_per_kw,prosumer,,,66.3695001,21,,, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,,,annual_per_kw,injection,,,0,21,,, 2022-01-01, 2022-02-28,if installed power  > 10kVA,,,
+ores_mouscron,,,per_kwh,public_service,,,0.0100727,21,,, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,,,per_kwh,road_fee,,,0.0028915,21,,, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,,,per_kwh,corp_tax,,,0.0043261,21,,, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,,,per_kwh,other_tax,,,0.0000006,21,,, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,,,per_kwh,reg_balance,,,-0.0025145,21,,, 2022-01-01, 2022-02-28,,,,
+ores_mouscron,,,per_kwh,connection,,,0.00070755,21,,, 2022-01-01, 2022-02-28,wallonia,?,0.00071,0.00075
+ores_mouscron,,,monthly,accise,,,0.04747442,21,,, 2022-01-01, 2022-02-28,federal,?,0.04748,0.0503288
+ores_mouscron,,,per_kwh,energy_contribution,,,0.00192610,21,,, 2022-01-01, 2022-02-28,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+ores_mouscron,smart,simple,per_kwh,distribution_simple,,,0.0038299,6,,, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,smart,day,per_kwh,distribution_day,,,0.0038299,6,7:00:00,22:00:00, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,smart,night,per_kwh,distribution_night,,,0.0038299,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,smart,night_excl,per_kwh,distribution_night_excl,,,0.0038299,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,smart,,annual_per_kw,peak,,,6.4591294,6,,, 2022-03-01, 2022-12-31,monthly peak,,,
+ores_mouscron,smart,,annual_per_kw,peak,,,2.1530431,6,,, 2022-03-01, 2022-12-31,period peak,,,
+ores_mouscron,simple,simple,per_kwh,distribution_simple,,,0.0677812,6,,, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,simple,day,per_kwh,distribution_day,,,0.0729093,6,7:00:00,22:00:00, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,simple,night,per_kwh,distribution_night,,,0.0358681,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,simple,night_excl,per_kwh,distribution_night_excl,,,0.0262543,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,,,annual,management,,,12.95,6,,, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,,,annual_per_kw,prosumer,,,66.3695001,6,,, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,,,annual_per_kw,injection,,,0,6,,, 2022-03-01, 2022-12-31,if installed power  > 10kVA,,,
+ores_mouscron,,,per_kwh,public_service,,,0.0100727,6,,, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,,,per_kwh,road_fee,,,0.0028915,6,,, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,,,per_kwh,corp_tax,,,0.0043261,6,,, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,,,per_kwh,other_tax,,,0.0000006,6,,, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,,,per_kwh,reg_balance,,,-0.0025145,6,,, 2022-03-01, 2022-12-31,,,,
+ores_mouscron,,,per_kwh,connection,,,0.00070755,6,,, 2022-03-01, 2022-12-31,wallonia,?,0.00071,0.00075
+ores_mouscron,,,monthly,accise,,,0.04747442,6,,, 2022-03-01, 2022-12-31,federal,?,0.04748,0.0503288
+ores_mouscron,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2022-03-01, 2022-12-31,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+ores_mouscron,smart,simple,per_kwh,distribution_simple,,,0.0037981,6,,, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,smart,day,per_kwh,distribution_day,,,0.0037981,6,7:00:00,22:00:00, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,smart,night,per_kwh,distribution_night,,,0.0037981,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,smart,night_excl,per_kwh,distribution_night_excl,,,0.0037981,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,smart,,annual_per_kw,peak,,,6.5408601,6,,, 2023-01-01, 2023-12-31,monthly peak,,,
+ores_mouscron,smart,,annual_per_kw,peak,,,2.1802867,6,,, 2023-01-01, 2023-12-31,period peak,,,
+ores_mouscron,simple,simple,per_kwh,distribution_simple,,,0.0682998,6,,, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,simple,day,per_kwh,distribution_day,,,0.0734720,6,7:00:00,22:00:00, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,simple,night,per_kwh,distribution_night,,,0.0361121,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,simple,night_excl,per_kwh,distribution_night_excl,,,0.0264155,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,,,annual,management,,,12.83,6,,, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,,,annual_per_kw,prosumer,,,67.9859034,6,,, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,,,annual_per_kw,injection,,,2.7401973,6,,, 2023-01-01, 2023-12-31,if installed power  > 10kVA,,,
+ores_mouscron,,,per_kwh,public_service,,,0.0099625,6,,, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,,,per_kwh,road_fee,,,0.0029357,6,,, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,,,per_kwh,corp_tax,,,0.0044036,6,,, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,,,per_kwh,other_tax,,,0.0000006,6,,, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,,,per_kwh,reg_balance,,,0.000812,6,,, 2023-01-01, 2023-12-31,,,,
+ores_mouscron,,,per_kwh,connection,,,0.00070755,6,,, 2023-01-01, 2023-12-31,wallonia,?,0.00071,0.00075
+ores_mouscron,,,monthly,accise,,,0.04747442,6,,, 2023-01-01, 2023-12-31,federal,?,0.04748,0.0503288
+ores_mouscron,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2023-01-01, 2023-12-31,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+ores_mouscron,smart,simple,per_kwh,distribution_simple,,,0.0049533,6,,, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,smart,day,per_kwh,distribution_day,,,0.0049533,6,7:00:00,22:00:00, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,smart,night,per_kwh,distribution_night,,,0.0049533,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,smart,night_excl,per_kwh,distribution_night_excl,,,0.0049533,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,smart,,annual_per_kw,peak,,,5.9569810,6,,, 2024-01-01, 2024-12-31,monthly peak,,,
+ores_mouscron,smart,,annual_per_kw,peak,,,1.9856603,6,,, 2024-01-01, 2024-12-31,period peak,,,
+ores_mouscron,simple,simple,per_kwh,distribution_simple,,,0.0683165,6,,, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,simple,day,per_kwh,distribution_day,,,0.0735182,6,7:00:00,22:00:00, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,simple,night,per_kwh,distribution_night,,,0.0360912,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,simple,night_excl,per_kwh,distribution_night_excl,,,0.0265682,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,,,annual,management,,,12.83,6,,, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,,,annual_per_kw,prosumer,,,62.4472343,6,,, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,,,annual_per_kw,injection,,,2.7401973,6,,, 2024-01-01, 2024-12-31,if installed power  > 10kVA,,,
+ores_mouscron,,,per_kwh,public_service,,,0.0094786,6,,, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,,,per_kwh,road_fee,,,0.0030866,6,,, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,,,per_kwh,corp_tax,,,0.0047213,6,,, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,,,per_kwh,other_tax,,,0.0000069,6,,, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,,,per_kwh,reg_balance,,,0,6,,, 2024-01-01, 2024-12-31,,,,
+ores_mouscron,,,per_kwh,connection,,,0.00070755,6,,, 2024-01-01, 2024-12-31,wallonia,?,0.00071,0.00075
+ores_mouscron,,,monthly,accise,,,0.04747442,6,,, 2024-01-01, 2024-12-31,federal,?,0.04748,0.0503288
+ores_mouscron,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2024-01-01, 2024-12-31,federal,?,0.1926109434,0.2041676

@@ -1,12 +1,110 @@
-distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
-aiesh,,simple,per_kwh,distribution_simple,,,0.1122641509,0.119,,, 2024-01-01, 2024-12-31
-aiesh,,day,per_kwh,distribution_day,,,0.1154716981,0.1224,6:00:00,22:00:00, 2024-01-01, 2024-12-31
-aiesh,,night,per_kwh,distribution_night,,,0.0691509434,0.0733,22:00:00,6:00:00, 2024-01-01, 2024-12-31
-aiesh,,night_excl,per_kwh,distribution_night_excl,,,0.06264150943,0.0664,22:00:00,6:00:00, 2024-01-01, 2024-12-31
-aiesh,,,per_kwh,transport,,,0.02556603774,0.0271,,, 2024-01-01, 2024-12-31
-aiesh,,,annual,management,,,17,18.02,,, 2024-01-01, 2024-12-31
-aiesh,,,annual_per_kw,prosumer,,,77.51886792,82.17,,, 2024-01-01, 2024-12-31
-aiesh,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
-aiesh,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
-aiesh,,,per_kwh,connection,,,0.0007075471698,0.00075,,, 2024-01-01, 2024-12-31
-aiesh,,,per_kwh,green_certs,,,0.02858490566,0.0303,,, 2024-01-01, 2024-12-31
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,tax_pct,time_of_day_start,time_of_day_end,date_start,date_end,,,,
+aiesh,smart,simple,per_kwh,distribution_simple,,,0,21,,, 2022-01-01, 2022-02-28,,,,
+aiesh,smart,day,per_kwh,distribution_day,,,0,21,7:00:00,22:00:00, 2022-01-01, 2022-02-28,,,,
+aiesh,smart,night,per_kwh,distribution_night,,,0,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+aiesh,smart,night_excl,per_kwh,distribution_night_excl,,,0,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+aiesh,comm,,annual_per_kw,peak,,,0.0000000,21,,, 2022-01-01, 2022-02-28,monthly peak,,,
+aiesh,comm,,annual_per_kw,peak,,,0.0000000,21,,, 2022-01-01, 2022-02-28,period peak,,,
+aiesh,simple,simple,per_kwh,distribution_simple,,,0.0773702,21,,, 2022-01-01, 2022-02-28,,,,
+aiesh,simple,day,per_kwh,distribution_day,,,0.0802490,21,7:00:00,22:00:00, 2022-01-01, 2022-02-28,,,,
+aiesh,simple,night,per_kwh,distribution_night,,,0.0445828,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+aiesh,simple,night_excl,per_kwh,distribution_night_excl,,,0.0352475,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+aiesh,,,annual,management,,,14.94,21,,, 2022-01-01, 2022-02-28,,,,
+aiesh,,,annual_per_kw,prosumer,,,71.49,21,,, 2022-01-01, 2022-02-28,,,,
+aiesh,,,annual_per_kw,injection,,,2.6981447,21,,, 2022-01-01, 2022-02-28,if installed power  > 10kVA,,,
+aiesh,,,per_kwh,public_service,,,0.0128031,21,,, 2022-01-01, 2022-02-28,,,,
+aiesh,,,per_kwh,road_fee,,,0.0026478,21,,, 2022-01-01, 2022-02-28,,,,
+aiesh,,,per_kwh,corp_tax,,,0.0049083,21,,, 2022-01-01, 2022-02-28,,,,
+aiesh,,,per_kwh,other_tax,,,0.0000029,21,,, 2022-01-01, 2022-02-28,,,,
+aiesh,,,per_kwh,reg_balance,,,0.0001489,21,,, 2022-01-01, 2022-02-28,,,,
+aiesh,,,per_kwh,connection,,,0.00070755,21,,, 2022-01-01, 2022-02-28,wallonia,?,0.00071,0.00075
+aiesh,,,monthly,accise,,,0.04747442,21,,, 2022-01-01, 2022-02-28,federal,?,0.04748,0.0503288
+aiesh,,,per_kwh,energy_contribution,,,0.00192610,21,,, 2022-01-01, 2022-02-28,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+aiesh,smart,simple,per_kwh,distribution_simple,,,0,6,,, 2022-03-01, 2022-12-31,,,,
+aiesh,smart,day,per_kwh,distribution_day,,,0,6,7:00:00,22:00:00, 2022-03-01, 2022-12-31,,,,
+aiesh,smart,night,per_kwh,distribution_night,,,0,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+aiesh,smart,night_excl,per_kwh,distribution_night_excl,,,0,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+aiesh,comm,,annual_per_kw,peak,,,0.0000000,6,,, 2022-03-01, 2022-12-31,monthly peak,,,
+aiesh,comm,,annual_per_kw,peak,,,0.0000000,6,,, 2022-03-01, 2022-12-31,period peak,,,
+aiesh,simple,simple,per_kwh,distribution_simple,,,0.0773702,6,,, 2022-03-01, 2022-12-31,,,,
+aiesh,simple,day,per_kwh,distribution_day,,,0.0802490,6,7:00:00,22:00:00, 2022-03-01, 2022-12-31,,,,
+aiesh,simple,night,per_kwh,distribution_night,,,0.0445828,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+aiesh,simple,night_excl,per_kwh,distribution_night_excl,,,0.0352475,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+aiesh,,,annual,management,,,14.94,6,,, 2022-03-01, 2022-12-31,,,,
+aiesh,,,annual_per_kw,prosumer,,,71.49,6,,, 2022-03-01, 2022-12-31,,,,
+aiesh,,,annual_per_kw,injection,,,2.6981447,6,,, 2022-03-01, 2022-12-31,if installed power  > 10kVA,,,
+aiesh,,,per_kwh,public_service,,,0.0128031,6,,, 2022-03-01, 2022-12-31,,,,
+aiesh,,,per_kwh,road_fee,,,0.0026478,6,,, 2022-03-01, 2022-12-31,,,,
+aiesh,,,per_kwh,corp_tax,,,0.0049083,6,,, 2022-03-01, 2022-12-31,,,,
+aiesh,,,per_kwh,other_tax,,,0.0000029,6,,, 2022-03-01, 2022-12-31,,,,
+aiesh,,,per_kwh,reg_balance,,,0.0001489,6,,, 2022-03-01, 2022-12-31,,,,
+aiesh,,,per_kwh,connection,,,0.00070755,6,,, 2022-03-01, 2022-12-31,wallonia,?,0.00071,0.00075
+aiesh,,,monthly,accise,,,0.04747442,6,,, 2022-03-01, 2022-12-31,federal,?,0.04748,0.0503288
+aiesh,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2022-03-01, 2022-12-31,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+aiesh,smart,simple,per_kwh,distribution_simple,,,0,6,,, 2023-01-01, 2023-02-28,,,,
+aiesh,smart,day,per_kwh,distribution_day,,,0,6,7:00:00,22:00:00, 2023-01-01, 2023-02-28,,,,
+aiesh,smart,night,per_kwh,distribution_night,,,0,6,22:00:00,7:00:00, 2023-01-01, 2023-02-28,,,,
+aiesh,smart,night_excl,per_kwh,distribution_night_excl,,,0,6,22:00:00,7:00:00, 2023-01-01, 2023-02-28,,,,
+aiesh,comm,,annual_per_kw,peak,,,0.0000000,6,,, 2023-01-01, 2023-02-28,monthly peak,,,
+aiesh,comm,,annual_per_kw,peak,,,0.0000000,6,,, 2023-01-01, 2023-02-28,period peak,,,
+aiesh,simple,simple,per_kwh,distribution_simple,,,0.0778239,6,,, 2023-01-01, 2023-02-28,,,,
+aiesh,simple,day,per_kwh,distribution_day,,,0.0807196,6,7:00:00,22:00:00, 2023-01-01, 2023-02-28,,,,
+aiesh,simple,night,per_kwh,distribution_night,,,0.0448442,6,22:00:00,7:00:00, 2023-01-01, 2023-02-28,,,,
+aiesh,simple,night_excl,per_kwh,distribution_night_excl,,,0.0354637,6,22:00:00,7:00:00, 2023-01-01, 2023-02-28,,,,
+aiesh,,,annual,management,,,14.91,6,,, 2023-01-01, 2023-02-28,,,,
+aiesh,,,annual_per_kw,prosumer,,,71.83,6,,, 2023-01-01, 2023-02-28,,,,
+aiesh,,,annual_per_kw,injection,,,2.7401973,6,,, 2023-01-01, 2023-02-28,if installed power  > 10kVA,,,
+aiesh,,,per_kwh,public_service,,,0.0130543,6,,, 2023-01-01, 2023-02-28,,,,
+aiesh,,,per_kwh,road_fee,,,0.0026529,6,,, 2023-01-01, 2023-02-28,,,,
+aiesh,,,per_kwh,corp_tax,,,0.0049446,6,,, 2023-01-01, 2023-02-28,,,,
+aiesh,,,per_kwh,other_tax,,,0.0000029,6,,, 2023-01-01, 2023-02-28,,,,
+aiesh,,,per_kwh,reg_balance,,,0,6,,, 2023-01-01, 2023-02-28,,,,
+aiesh,,,per_kwh,connection,,,0.00070755,6,,, 2023-01-01, 2023-02-28,wallonia,?,0.00071,0.00075
+aiesh,,,monthly,accise,,,0.04747442,6,,, 2023-01-01, 2023-02-28,federal,?,0.04748,0.0503288
+aiesh,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2023-01-01, 2023-02-28,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+aiesh,smart,simple,per_kwh,distribution_simple,,,0,6,,, 2023-03-01, 2023-12-31,,,,
+aiesh,smart,day,per_kwh,distribution_day,,,0,6,7:00:00,22:00:00, 2023-03-01, 2023-12-31,,,,
+aiesh,smart,night,per_kwh,distribution_night,,,0,6,22:00:00,7:00:00, 2023-03-01, 2023-12-31,,,,
+aiesh,smart,night_excl,per_kwh,distribution_night_excl,,,0,6,22:00:00,7:00:00, 2023-03-01, 2023-12-31,,,,
+aiesh,comm,,annual_per_kw,peak,,,0.0000000,6,,, 2023-03-01, 2023-12-31,monthly peak,,,
+aiesh,comm,,annual_per_kw,peak,,,0.0000000,6,,, 2023-03-01, 2023-12-31,period peak,,,
+aiesh,simple,simple,per_kwh,distribution_simple,,,0.0880752,6,,, 2023-03-01, 2023-12-31,,,,
+aiesh,simple,day,per_kwh,distribution_day,,,0.0913523,6,7:00:00,22:00:00, 2023-03-01, 2023-12-31,,,,
+aiesh,simple,night,per_kwh,distribution_night,,,0.0507513,6,22:00:00,7:00:00, 2023-03-01, 2023-12-31,,,,
+aiesh,simple,night_excl,per_kwh,distribution_night_excl,,,0.0401351,6,22:00:00,7:00:00, 2023-03-01, 2023-12-31,,,,
+aiesh,,,annual,management,,,16.76,6,,, 2023-03-01, 2023-12-31,,,,
+aiesh,,,annual_per_kw,prosumer,,,77.20,6,,, 2023-03-01, 2023-12-31,,,,
+aiesh,,,annual_per_kw,injection,,,2.7401973,6,,, 2023-03-01, 2023-12-31,if installed power  > 10kVA,,,
+aiesh,,,per_kwh,public_service,,,0.0150906,6,,, 2023-03-01, 2023-12-31,,,,
+aiesh,,,per_kwh,road_fee,,,0.0026529,6,,, 2023-03-01, 2023-12-31,,,,
+aiesh,,,per_kwh,corp_tax,,,0.0049446,6,,, 2023-03-01, 2023-12-31,,,,
+aiesh,,,per_kwh,other_tax,,,0.0000029,6,,, 2023-03-01, 2023-12-31,,,,
+aiesh,,,per_kwh,reg_balance,,,0,6,,, 2023-03-01, 2023-12-31,,,,
+aiesh,,,per_kwh,connection,,,0.00070755,6,,, 2023-03-01, 2023-12-31,wallonia,?,0.00071,0.00075
+aiesh,,,monthly,accise,,,0.04747442,6,,, 2023-03-01, 2023-12-31,federal,?,0.04748,0.0503288
+aiesh,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2023-03-01, 2023-12-31,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+aiesh,smart,simple,per_kwh,distribution_simple,,,0.0709832,6,,, 2024-01-01, 2024-12-31,,,,
+aiesh,smart,day,per_kwh,distribution_day,,,0.0709832,6,7:00:00,22:00:00, 2024-01-01, 2024-12-31,,,,
+aiesh,smart,night,per_kwh,distribution_night,,,0.0709832,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+aiesh,smart,night_excl,per_kwh,distribution_night_excl,,,0.0709832,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+aiesh,comm,,annual_per_kw,peak,,,5.7957455,6,,, 2024-01-01, 2024-12-31,monthly peak,,,
+aiesh,comm,,annual_per_kw,peak,,,1.9319152,6,,, 2024-01-01, 2024-12-31,period peak,,,
+aiesh,simple,simple,per_kwh,distribution_simple,,,0.0866990,6,,, 2024-01-01, 2024-12-31,,,,
+aiesh,simple,day,per_kwh,distribution_day,,,0.0916194,6,7:00:00,22:00:00, 2024-01-01, 2024-12-31,,,,
+aiesh,simple,night,per_kwh,distribution_night,,,0.0461180,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+aiesh,simple,night_excl,per_kwh,distribution_night_excl,,,0.0412407,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+aiesh,,,annual,management,,,16.17,6,,, 2024-01-01, 2024-12-31,,,,
+aiesh,,,annual_per_kw,prosumer,,,74.7276855,6,,, 2024-01-01, 2024-12-31,,,,
+aiesh,,,annual_per_kw,injection,,,2.7401973,6,,, 2024-01-01, 2024-12-31,if installed power  > 10kVA,,,
+aiesh,,,per_kwh,public_service,,,0.0142911,6,,, 2024-01-01, 2024-12-31,,,,
+aiesh,,,per_kwh,road_fee,,,0.0024086,6,,, 2024-01-01, 2024-12-31,,,,
+aiesh,,,per_kwh,corp_tax,,,0.0038911,6,,, 2024-01-01, 2024-12-31,,,,
+aiesh,,,per_kwh,other_tax,,,0.0000023,6,,, 2024-01-01, 2024-12-31,,,,
+aiesh,,,per_kwh,reg_balance,,,0,6,,, 2024-01-01, 2024-12-31,,,,
+aiesh,,,per_kwh,connection,,,0.00070755,6,,, 2024-01-01, 2024-12-31,wallonia,?,0.00071,0.00075
+aiesh,,,monthly,accise,,,0.04747442,6,,, 2024-01-01, 2024-12-31,federal,?,0.04748,0.0503288
+aiesh,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2024-01-01, 2024-12-31,federal,?,0.1926109434,0.2041676

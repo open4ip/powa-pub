@@ -3,10 +3,11 @@ distribution_simple,Distribution Costs - Simple,Coûts de distribution - Simple,
 distribution_day,Distribution Costs - Day,Coûts de distribution - Jour,Distributiekosten – Dag
 distribution_night,Distribution Costs - Night,Coûts de distribution - Nuit,Distributiekosten – Nacht
 distribution_night_excl,Distribution Costs - Night Exclusive,Coûts de distribution - Exclusif nuit,Distributiekosten - Exclusief nacht
+distribution,Distribution Costs,Coûts de distribution,Distributiekosten
 transport,Transport Costs,Coûts de transport,Transportkosten
 management,Data Management Tariff / Metering and Measurement Activities / Fixed Term,Tarif gestion des données / Activités de mesure et de comptage/Terme fixe,Tarief gegevensbeheer / Meet- en telactiviteiten / Vaste termijn
 prosumer,Prosumer Tariff,Tarif prosumer,Prosumer prijs
-management,Data Management Tariff,Tarif de gestion des données,Prijzen voor gegevensbeheer
+injection,Injection costs,Coûts d'injection,Injectiekosten
 capacity,Capacity Tariff,Tarif de capacité,Capaciteitstarief
 accise,Special Excise Duty,Droit d'accise spécial,Bijzondere accijns
 energy_contribution,Energy Contribution,Contribution sur l'énergie,Bijdrage op energie
@@ -14,3 +15,8 @@ connection,Connection Fee,Redevance de raccordement,Aansluitkosten
 green_certs,Green Certificates Contribution,Contribution Certificats verts,Bijdrage Groencertificaten
 cogen,Cogeneration Contribution,Contribution Cogénération,Bijdrage warmtekrachtkoppeling
 public_service,Public Service Obligations,Obligations de service publique,Openbaredienstverplichtingen
+maximum,Maximum cost,Coût maximum,Maximale kosten
+road_fee,Road fee,Redevance de voirie,Wegenbelasting
+corp_tax,Corporate tax,Impôt sur les sociétés,Vennootschapsbelasting
+reg_balance,Rate for regulatory balances,Tarif pour les soldes régulatoires,Prijs voor gereguleerde verkopen
+other_tax,"Other local, provincial or regional taxes","Autres impôts locaux, provinciaux ou régionaux","Andere lokale, provinciale of regionale belastingen"

@@ -1,12 +1,88 @@
-distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
-ores_brabant_wallon,,simple,per_kwh,distribution_simple,,,0.08556603774,0.0907,,, 2024-01-01, 2024-12-31
-ores_brabant_wallon,,day,per_kwh,distribution_day,,,0.0908490566,0.0963,6:00:00,22:00:00, 2024-01-01, 2024-12-31
-ores_brabant_wallon,,night,per_kwh,distribution_night,,,0.05339622642,0.0566,22:00:00,6:00:00, 2024-01-01, 2024-12-31
-ores_brabant_wallon,,night_excl,per_kwh,distribution_night_excl,,,0.04386792453,0.0465,22:00:00,6:00:00, 2024-01-01, 2024-12-31
-ores_brabant_wallon,,,per_kwh,transport,,,0.02556603774,0.0271,,, 2024-01-01, 2024-12-31
-ores_brabant_wallon,,,annual,management,,,12.83018868,13.6,,, 2024-01-01, 2024-12-31
-ores_brabant_wallon,,,annual_per_kw,prosumer,,,62.44339623,66.19,,, 2024-01-01, 2024-12-31
-ores_brabant_wallon,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
-ores_brabant_wallon,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
-ores_brabant_wallon,,,per_kwh,connection,,,0.0007075471698,0.00075,,, 2024-01-01, 2024-12-31
-ores_brabant_wallon,,,per_kwh,green_certs,,,0.02858490566,0.0303,,, 2024-01-01, 2024-12-31
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,tax_pct,time_of_day_start,time_of_day_end,date_start,date_end,,,,
+ores_brabant_wallon,smart,simple,per_kwh,distribution_simple,,,0.0037238,21,,, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,smart,day,per_kwh,distribution_day,,,0.0037238,21,7:00:00,22:00:00, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,smart,night,per_kwh,distribution_night,,,0.0037238,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,smart,night_excl,per_kwh,distribution_night_excl,,,0.0037238,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,smart,,annual_per_kw,peak,,,5.1814393,21,,, 2022-01-01, 2022-02-28,monthly peak,,,
+ores_brabant_wallon,smart,,annual_per_kw,peak,,,1.7271464,21,,, 2022-01-01, 2022-02-28,period peak,,,
+ores_brabant_wallon,simple,simple,per_kwh,distribution_simple,,,0.0662317,21,,, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,simple,day,per_kwh,distribution_day,,,0.0713394,21,7:00:00,22:00:00, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,simple,night,per_kwh,distribution_night,,,0.0336425,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,simple,night_excl,per_kwh,distribution_night_excl,,,0.0243996,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,,,annual,management,,,12.95,21,,, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,,,annual_per_kw,prosumer,,,65.7115318,21,,, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,,,annual_per_kw,injection,,,0,21,,, 2022-01-01, 2022-02-28,if installed power  > 10kVA,,,
+ores_brabant_wallon,,,per_kwh,public_service,,,0.0067986,21,,, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,,,per_kwh,road_fee,,,0.0028711,21,,, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,,,per_kwh,corp_tax,,,0.0036569,21,,, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,,,per_kwh,other_tax,,,0.0000115,21,,, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,,,per_kwh,reg_balance,,,0.0009659,21,,, 2022-01-01, 2022-02-28,,,,
+ores_brabant_wallon,,,per_kwh,connection,,,0.00070755,21,,, 2022-01-01, 2022-02-28,wallonia,?,0.00071,0.00075
+ores_brabant_wallon,,,monthly,accise,,,0.04747442,21,,, 2022-01-01, 2022-02-28,federal,?,0.04748,0.0503288
+ores_brabant_wallon,,,per_kwh,energy_contribution,,,0.00192610,21,,, 2022-01-01, 2022-02-28,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+ores_brabant_wallon,smart,simple,per_kwh,distribution_simple,,,0.0037238,6,,, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,smart,day,per_kwh,distribution_day,,,0.0037238,6,7:00:00,22:00:00, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,smart,night,per_kwh,distribution_night,,,0.0037238,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,smart,night_excl,per_kwh,distribution_night_excl,,,0.0037238,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,smart,,annual_per_kw,peak,,,5.1814393,6,,, 2022-03-01, 2022-12-31,monthly peak,,,
+ores_brabant_wallon,smart,,annual_per_kw,peak,,,1.7271464,6,,, 2022-03-01, 2022-12-31,period peak,,,
+ores_brabant_wallon,simple,simple,per_kwh,distribution_simple,,,0.0662317,6,,, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,simple,day,per_kwh,distribution_day,,,0.0713394,6,7:00:00,22:00:00, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,simple,night,per_kwh,distribution_night,,,0.0336425,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,simple,night_excl,per_kwh,distribution_night_excl,,,0.0243996,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,,,annual,management,,,12.95,6,,, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,,,annual_per_kw,prosumer,,,65.7115318,6,,, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,,,annual_per_kw,injection,,,0,6,,, 2022-03-01, 2022-12-31,if installed power  > 10kVA,,,
+ores_brabant_wallon,,,per_kwh,public_service,,,0.0067986,6,,, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,,,per_kwh,road_fee,,,0.0028711,6,,, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,,,per_kwh,corp_tax,,,0.0036569,6,,, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,,,per_kwh,other_tax,,,0.0000115,6,,, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,,,per_kwh,reg_balance,,,0.0009659,6,,, 2022-03-01, 2022-12-31,,,,
+ores_brabant_wallon,,,per_kwh,connection,,,0.00070755,6,,, 2022-03-01, 2022-12-31,wallonia,?,0.00071,0.00075
+ores_brabant_wallon,,,monthly,accise,,,0.04747442,6,,, 2022-03-01, 2022-12-31,federal,?,0.04748,0.0503288
+ores_brabant_wallon,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2022-03-01, 2022-12-31,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+ores_brabant_wallon,smart,simple,per_kwh,distribution_simple,,,0.0036659,6,,, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,smart,day,per_kwh,distribution_day,,,0.0036659,6,7:00:00,22:00:00, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,smart,night,per_kwh,distribution_night,,,0.0036659,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,smart,night_excl,per_kwh,distribution_night_excl,,,0.0036659,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,smart,,annual_per_kw,peak,,,5.2262951,6,,, 2023-01-01, 2023-12-31,monthly peak,,,
+ores_brabant_wallon,smart,,annual_per_kw,peak,,,1.7420984,6,,, 2023-01-01, 2023-12-31,period peak,,,
+ores_brabant_wallon,simple,simple,per_kwh,distribution_simple,,,0.0664883,6,,, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,simple,day,per_kwh,distribution_day,,,0.0716217,6,7:00:00,22:00:00, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,simple,night,per_kwh,distribution_night,,,0.0337351,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,simple,night_excl,per_kwh,distribution_night_excl,,,0.0244457,6,22:00:00,7:00:00, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,,,annual,management,,,12.83,6,,, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,,,annual_per_kw,prosumer,,,65.7216701,6,,, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,,,annual_per_kw,injection,,,2.7401973,6,,, 2023-01-01, 2023-12-31,if installed power  > 10kVA,,,
+ores_brabant_wallon,,,per_kwh,public_service,,,0.00658,6,,, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,,,per_kwh,road_fee,,,0.0029128,6,,, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,,,per_kwh,corp_tax,,,0.0037066,6,,, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,,,per_kwh,other_tax,,,0.0000116,6,,, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,,,per_kwh,reg_balance,,,0.0017061,6,,, 2023-01-01, 2023-12-31,,,,
+ores_brabant_wallon,,,per_kwh,connection,,,0.00070755,6,,, 2023-01-01, 2023-12-31,wallonia,?,0.00071,0.00075
+ores_brabant_wallon,,,monthly,accise,,,0.04747442,6,,, 2023-01-01, 2023-12-31,federal,?,0.04748,0.0503288
+ores_brabant_wallon,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2023-01-01, 2023-12-31,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+ores_brabant_wallon,smart,simple,per_kwh,distribution_simple,,,0.0049533,6,,, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,smart,day,per_kwh,distribution_day,,,0.0049533,6,7:00:00,22:00:00, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,smart,night,per_kwh,distribution_night,,,0.0049533,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,smart,night_excl,per_kwh,distribution_night_excl,,,0.0049533,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,smart,,annual_per_kw,peak,,,5.9569810,6,,, 2024-01-01, 2024-12-31,monthly peak,,,
+ores_brabant_wallon,smart,,annual_per_kw,peak,,,1.9856603,6,,, 2024-01-01, 2024-12-31,period peak,,,
+ores_brabant_wallon,simple,simple,per_kwh,distribution_simple,,,0.0683165,6,,, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,simple,day,per_kwh,distribution_day,,,0.0735182,6,7:00:00,22:00:00, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,simple,night,per_kwh,distribution_night,,,0.0360912,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,simple,night_excl,per_kwh,distribution_night_excl,,,0.0265682,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,,,annual,management,,,12.83,6,,, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,,,annual_per_kw,prosumer,,,62.4472343,6,,, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,,,annual_per_kw,injection,,,2.7401973,6,,, 2024-01-01, 2024-12-31,if installed power  > 10kVA,,,
+ores_brabant_wallon,,,per_kwh,public_service,,,0.0094786,6,,, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,,,per_kwh,road_fee,,,0.0030866,6,,, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,,,per_kwh,corp_tax,,,0.0047213,6,,, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,,,per_kwh,other_tax,,,0.0000069,6,,, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,,,per_kwh,reg_balance,,,0,6,,, 2024-01-01, 2024-12-31,,,,
+ores_brabant_wallon,,,per_kwh,connection,,,0.00070755,6,,, 2024-01-01, 2024-12-31,wallonia,?,0.00071,0.00075
+ores_brabant_wallon,,,monthly,accise,,,0.04747442,6,,, 2024-01-01, 2024-12-31,federal,?,0.04748,0.0503288
+ores_brabant_wallon,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2024-01-01, 2024-12-31,federal,?,0.1926109434,0.2041676

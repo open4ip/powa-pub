@@ -1,12 +1,110 @@
-distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,amount_eur_tincl,time_of_day_start,time_of_day_end,date_start,date_end
-wavre,,simple,per_kwh,distribution_simple,,,0.1023584906,0.1085,,, 2024-01-01, 2024-12-31
-wavre,,day,per_kwh,distribution_day,,,0.1039622642,0.1102,6:00:00,22:00:00, 2024-01-01, 2024-12-31
-wavre,,night,per_kwh,distribution_night,,,0.08226415094,0.0872,22:00:00,6:00:00, 2024-01-01, 2024-12-31
-wavre,,night_excl,per_kwh,distribution_night_excl,,,0.08226415094,0.0872,22:00:00,6:00:00, 2024-01-01, 2024-12-31
-wavre,,,per_kwh,transport,,,0.02556603774,0.0271,,, 2024-01-01, 2024-12-31
-wavre,,,annual,management,,,16.35849057,17.34,,, 2024-01-01, 2024-12-31
-wavre,,,annual_per_kw,prosumer,,,71.94339623,76.26,,, 2024-01-01, 2024-12-31
-wavre,,,monthly,accise,,,0.04748018868,0.050329,,, 2024-01-01, 2024-12-31
-wavre,,,per_kwh,energy_contribution,,,0.001926415094,0.002042,,, 2024-01-01, 2024-12-31
-wavre,,,per_kwh,connection,,,0.0007075471698,0.00075,,, 2024-01-01, 2024-12-31
-wavre,,,per_kwh,green_certs,,,0.02858490566,0.0303,,, 2024-01-01, 2024-12-31
+distributor,counter_type,day_time_type,rate_occurrence,cost_type,kva_range_low,kva_range_high,amount_eur,tax_pct,time_of_day_start,time_of_day_end,date_start,date_end,,,,
+wavre,smart,simple,per_kwh,distribution_simple,,,0.0030495,21,,, 2022-01-01, 2022-02-28,,,,
+wavre,smart,day,per_kwh,distribution_day,,,0.0032775,21,7:00:00,22:00:00, 2022-01-01, 2022-02-28,,,,
+wavre,smart,night,per_kwh,distribution_night,,,0.0023655,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+wavre,smart,night_excl,per_kwh,distribution_night_excl,,,0.0023655,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+wavre,comm,,annual_per_kw,peak,,,11.0029954,21,,, 2022-01-01, 2022-02-28,monthly peak,,,
+wavre,comm,,annual_per_kw,peak,,,3.6676651,21,,, 2022-01-01, 2022-02-28,period peak,,,
+wavre,simple,simple,per_kwh,distribution_simple,,,0.0703594,21,,, 2022-01-01, 2022-02-28,,,,
+wavre,simple,day,per_kwh,distribution_day,,,0.0757898,21,7:00:00,22:00:00, 2022-01-01, 2022-02-28,,,,
+wavre,simple,night,per_kwh,distribution_night,,,0.0540683,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+wavre,simple,night_excl,per_kwh,distribution_night_excl,,,0.0540683,21,22:00:00,7:00:00, 2022-01-01, 2022-02-28,,,,
+wavre,,,annual,management,,,17.54,21,,, 2022-01-01, 2022-02-28,,,,
+wavre,,,annual_per_kw,prosumer,,,76.1147472,21,,, 2022-01-01, 2022-02-28,,,,
+wavre,,,annual_per_kw,injection,,,2.6981447,21,,, 2022-01-01, 2022-02-28,if installed power  > 10kVA,,,
+wavre,,,per_kwh,public_service,,,0.0115587,21,,, 2022-01-01, 2022-02-28,,,,
+wavre,,,per_kwh,road_fee,,,0.0028916,21,,, 2022-01-01, 2022-02-28,,,,
+wavre,,,per_kwh,corp_tax,,,0.0060583,21,,, 2022-01-01, 2022-02-28,,,,
+wavre,,,per_kwh,other_tax,,,0.0000872,21,,, 2022-01-01, 2022-02-28,,,,
+wavre,,,per_kwh,reg_balance,,,0.0071347,21,,, 2022-01-01, 2022-02-28,,,,
+wavre,,,per_kwh,connection,,,0.00070755,21,,, 2022-01-01, 2022-02-28,wallonia,?,0.00071,0.00075
+wavre,,,monthly,accise,,,0.04747442,21,,, 2022-01-01, 2022-02-28,federal,?,0.04748,0.0503288
+wavre,,,per_kwh,energy_contribution,,,0.00192610,21,,, 2022-01-01, 2022-02-28,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+wavre,smart,simple,per_kwh,distribution_simple,,,0.0030495,6,,, 2022-03-01, 2022-12-31,,,,
+wavre,smart,day,per_kwh,distribution_day,,,0.0032775,6,7:00:00,22:00:00, 2022-03-01, 2022-12-31,,,,
+wavre,smart,night,per_kwh,distribution_night,,,0.0023655,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+wavre,smart,night_excl,per_kwh,distribution_night_excl,,,0.0023655,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+wavre,comm,,annual_per_kw,peak,,,11.0029954,6,,, 2022-03-01, 2022-12-31,monthly peak,,,
+wavre,comm,,annual_per_kw,peak,,,3.6676651,6,,, 2022-03-01, 2022-12-31,period peak,,,
+wavre,simple,simple,per_kwh,distribution_simple,,,0.0703594,6,,, 2022-03-01, 2022-12-31,,,,
+wavre,simple,day,per_kwh,distribution_day,,,0.0757898,6,7:00:00,22:00:00, 2022-03-01, 2022-12-31,,,,
+wavre,simple,night,per_kwh,distribution_night,,,0.0540683,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+wavre,simple,night_excl,per_kwh,distribution_night_excl,,,0.0540683,6,22:00:00,7:00:00, 2022-03-01, 2022-12-31,,,,
+wavre,,,annual,management,,,17.54,6,,, 2022-03-01, 2022-12-31,,,,
+wavre,,,annual_per_kw,prosumer,,,76.1147472,6,,, 2022-03-01, 2022-12-31,,,,
+wavre,,,annual_per_kw,injection,,,2.6981447,6,,, 2022-03-01, 2022-12-31,if installed power  > 10kVA,,,
+wavre,,,per_kwh,public_service,,,0.0115587,6,,, 2022-03-01, 2022-12-31,,,,
+wavre,,,per_kwh,road_fee,,,0.0028916,6,,, 2022-03-01, 2022-12-31,,,,
+wavre,,,per_kwh,corp_tax,,,0.0060583,6,,, 2022-03-01, 2022-12-31,,,,
+wavre,,,per_kwh,other_tax,,,0.0000872,6,,, 2022-03-01, 2022-12-31,,,,
+wavre,,,per_kwh,reg_balance,,,0.0071347,6,,, 2022-03-01, 2022-12-31,,,,
+wavre,,,per_kwh,connection,,,0.00070755,6,,, 2022-03-01, 2022-12-31,wallonia,?,0.00071,0.00075
+wavre,,,monthly,accise,,,0.04747442,6,,, 2022-03-01, 2022-12-31,federal,?,0.04748,0.0503288
+wavre,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2022-03-01, 2022-12-31,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+wavre,smart,simple,per_kwh,distribution_simple,,,0.0030017,6,,, 2023-01-01, 2023-02-28,,,,
+wavre,smart,day,per_kwh,distribution_day,,,0.0032542,6,7:00:00,22:00:00, 2023-01-01, 2023-02-28,,,,
+wavre,smart,night,per_kwh,distribution_night,,,0.0023284,6,22:00:00,7:00:00, 2023-01-01, 2023-02-28,,,,
+wavre,smart,night_excl,per_kwh,distribution_night_excl,,,0.0023284,6,22:00:00,7:00:00, 2023-01-01, 2023-02-28,,,,
+wavre,comm,,annual_per_kw,peak,,,11.0549221,6,,, 2023-01-01, 2023-02-28,monthly peak,,,
+wavre,comm,,annual_per_kw,peak,,,3.6849740,6,,, 2023-01-01, 2023-02-28,period peak,,,
+wavre,simple,simple,per_kwh,distribution_simple,,,0.0714939,6,,, 2023-01-01, 2023-02-28,,,,
+wavre,simple,day,per_kwh,distribution_day,,,0.0777101,6,7:00:00,22:00:00, 2023-01-01, 2023-02-28,,,,
+wavre,simple,night,per_kwh,distribution_night,,,0.0549174,6,22:00:00,7:00:00, 2023-01-01, 2023-02-28,,,,
+wavre,simple,night_excl,per_kwh,distribution_night_excl,,,0.0549174,6,22:00:00,7:00:00, 2023-01-01, 2023-02-28,,,,
+wavre,,,annual,management,,,17.57,6,,, 2023-01-01, 2023-02-28,,,,
+wavre,,,annual_per_kw,prosumer,,,73.2769974,6,,, 2023-01-01, 2023-02-28,,,,
+wavre,,,annual_per_kw,injection,,,2.7401973,6,,, 2023-01-01, 2023-02-28,if installed power  > 10kVA,,,
+wavre,,,per_kwh,public_service,,,0.0123336,6,,, 2023-01-01, 2023-02-28,,,,
+wavre,,,per_kwh,road_fee,,,0.0029694,6,,, 2023-01-01, 2023-02-28,,,,
+wavre,,,per_kwh,corp_tax,,,0.0061933,6,,, 2023-01-01, 2023-02-28,,,,
+wavre,,,per_kwh,other_tax,,,0.0000896,6,,, 2023-01-01, 2023-02-28,,,,
+wavre,,,per_kwh,reg_balance,,,0,6,,, 2023-01-01, 2023-02-28,,,,
+wavre,,,per_kwh,connection,,,0.00070755,6,,, 2023-01-01, 2023-02-28,wallonia,?,0.00071,0.00075
+wavre,,,monthly,accise,,,0.04747442,6,,, 2023-01-01, 2023-02-28,federal,?,0.04748,0.0503288
+wavre,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2023-01-01, 2023-02-28,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+wavre,smart,simple,per_kwh,distribution_simple,,,0.0030017,6,,, 2023-03-01, 2023-12-31,,,,
+wavre,smart,day,per_kwh,distribution_day,,,0.0032542,6,7:00:00,22:00:00, 2023-03-01, 2023-12-31,,,,
+wavre,smart,night,per_kwh,distribution_night,,,0.0023284,6,22:00:00,7:00:00, 2023-03-01, 2023-12-31,,,,
+wavre,smart,night_excl,per_kwh,distribution_night_excl,,,0.0023284,6,22:00:00,7:00:00, 2023-03-01, 2023-12-31,,,,
+wavre,comm,,annual_per_kw,peak,,,11.0549221,6,,, 2023-03-01, 2023-12-31,monthly peak,,,
+wavre,comm,,annual_per_kw,peak,,,3.6849740,6,,, 2023-03-01, 2023-12-31,period peak,,,
+wavre,simple,simple,per_kwh,distribution_simple,,,0.0714939,6,,, 2023-03-01, 2023-12-31,,,,
+wavre,simple,day,per_kwh,distribution_day,,,0.0777101,6,7:00:00,22:00:00, 2023-03-01, 2023-12-31,,,,
+wavre,simple,night,per_kwh,distribution_night,,,0.0549174,6,22:00:00,7:00:00, 2023-03-01, 2023-12-31,,,,
+wavre,simple,night_excl,per_kwh,distribution_night_excl,,,0.0549174,6,22:00:00,7:00:00, 2023-03-01, 2023-12-31,,,,
+wavre,,,annual,management,,,17.57,6,,, 2023-03-01, 2023-12-31,,,,
+wavre,,,annual_per_kw,prosumer,,,73.2769974,6,,, 2023-03-01, 2023-12-31,,,,
+wavre,,,annual_per_kw,injection,,,2.7401973,6,,, 2023-03-01, 2023-12-31,if installed power  > 10kVA,,,
+wavre,,,per_kwh,public_service,,,0.0123336,6,,, 2023-03-01, 2023-12-31,,,,
+wavre,,,per_kwh,road_fee,,,0.0029694,6,,, 2023-03-01, 2023-12-31,,,,
+wavre,,,per_kwh,corp_tax,,,0.0061933,6,,, 2023-03-01, 2023-12-31,,,,
+wavre,,,per_kwh,other_tax,,,0.0000896,6,,, 2023-03-01, 2023-12-31,,,,
+wavre,,,per_kwh,reg_balance,,,0.0179201,6,,, 2023-03-01, 2023-12-31,,,,
+wavre,,,per_kwh,connection,,,0.00070755,6,,, 2023-03-01, 2023-12-31,wallonia,?,0.00071,0.00075
+wavre,,,monthly,accise,,,0.04747442,6,,, 2023-03-01, 2023-12-31,federal,?,0.04748,0.0503288
+wavre,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2023-03-01, 2023-12-31,federal,?,0.1926109434,0.2041676
+,,,,,,,,,,,,,,,,
+wavre,smart,simple,per_kwh,distribution_simple,,,0.0033795,6,,, 2024-01-01, 2024-12-31,,,,
+wavre,smart,day,per_kwh,distribution_day,,,0.0036637,6,7:00:00,22:00:00, 2024-01-01, 2024-12-31,,,,
+wavre,smart,night,per_kwh,distribution_night,,,0.0026215,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+wavre,smart,night_excl,per_kwh,distribution_night_excl,,,0.0026215,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+wavre,comm,,annual_per_kw,peak,,,11.3994559,6,,, 2024-01-01, 2024-12-31,monthly peak,,,
+wavre,comm,,annual_per_kw,peak,,,3.7998186,6,,, 2024-01-01, 2024-12-31,period peak,,,
+wavre,simple,simple,per_kwh,distribution_simple,,,0.0746183,6,,, 2024-01-01, 2024-12-31,,,,
+wavre,simple,day,per_kwh,distribution_day,,,0.0761945,6,7:00:00,22:00:00, 2024-01-01, 2024-12-31,,,,
+wavre,simple,night,per_kwh,distribution_night,,,0.0545184,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+wavre,simple,night_excl,per_kwh,distribution_night_excl,,,0.0545184,6,22:00:00,7:00:00, 2024-01-01, 2024-12-31,,,,
+wavre,,,annual,management,,,16.35,6,,, 2024-01-01, 2024-12-31,,,,
+wavre,,,annual_per_kw,prosumer,,,71.9399638,6,,, 2024-01-01, 2024-12-31,,,,
+wavre,,,annual_per_kw,injection,,,2.7401973,6,,, 2024-01-01, 2024-12-31,if installed power  > 10kVA,,,
+wavre,,,per_kwh,public_service,,,0.0130962,6,,, 2024-01-01, 2024-12-31,,,,
+wavre,,,per_kwh,road_fee,,,0.0030525,6,,, 2024-01-01, 2024-12-31,,,,
+wavre,,,per_kwh,corp_tax,,,0.0064727,6,,, 2024-01-01, 2024-12-31,,,,
+wavre,,,per_kwh,other_tax,,,0.0000918,6,,, 2024-01-01, 2024-12-31,,,,
+wavre,,,per_kwh,reg_balance,,,0.0050385,6,,, 2024-01-01, 2024-12-31,,,,
+wavre,,,per_kwh,connection,,,0.00070755,6,,, 2024-01-01, 2024-12-31,wallonia,?,0.00071,0.00075
+wavre,,,monthly,accise,,,0.04747442,6,,, 2024-01-01, 2024-12-31,federal,?,0.04748,0.0503288
+wavre,,,per_kwh,energy_contribution,,,0.00192610,6,,, 2024-01-01, 2024-12-31,federal,?,0.1926109434,0.2041676
