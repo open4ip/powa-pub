@@ -5,10 +5,13 @@ distribution_night,Distribution Costs - Night,Coûts de distribution - Nuit,Dist
 distribution_night_excl,Distribution Costs - Night Exclusive,Coûts de distribution - Exclusif nuit,Distributiekosten - Exclusief nacht
 distribution,Distribution Costs,Coûts de distribution,Distributiekosten
 transport,Transport Costs,Coûts de transport,Transportkosten
-management,Data Management Tariff / Metering and Measurement Activities / Fixed Term,Tarif gestion des données / Activités de mesure et de comptage/Terme fixe,Tarief gegevensbeheer / Meet- en telactiviteiten / Vaste termijn
+management,Data Management Costs / Metering and Measurement Activities / Fixed Term,Tarif gestion des données / Activités de mesure et de comptage/Terme fixe,Tarief gegevensbeheer / Meet- en telactiviteiten / Vaste termijn
+management_quarter_hour,"Data Management Costs, based on quarter hours.","Coûts de gestion des données, basés sur un quart d'heure.","Kosten voor gegevensbeheer, gebaseerd op kwartieruren."
+management_month_year,"Data Management Costs, based on monthly or yealry index.","Kosten voor gegevensbeheer, gebaseerd op een maandelijkse of jaarlijkse index.","Coûts de gestion des données, basés sur un indice mensuel ou annuel."
 prosumer,Prosumer Tariff,Tarif prosumer,Prosumer prijs
 injection,Injection costs,Coûts d'injection,Injectiekosten
 capacity,Capacity Tariff,Tarif de capacité,Capaciteitstarief
+peak,Peak consumption,Consommation de pointe,Piekverbruik
 accise,Special Excise Duty,Droit d'accise spécial,Bijzondere accijns
 energy_contribution,Energy Contribution,Contribution sur l'énergie,Bijdrage op energie
 connection,Connection Fee,Redevance de raccordement,Aansluitkosten
