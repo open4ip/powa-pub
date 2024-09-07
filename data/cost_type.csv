@@ -11,6 +11,7 @@ management_month_year,"Data Management Costs, based on monthly or yealry index."
 prosumer,Prosumer Tariff,Tarif prosumer,Prosumer prijs
 injection,Injection costs,Coûts d'injection,Injectiekosten
 capacity,Capacity Tariff,Tarif de capacité,Capaciteitstarief
+peak_monthly_avrg,Average monthly peak,Pic mensuel moyen,Gemiddelde maandpiek
 peak,Peak consumption,Consommation de pointe,Piekverbruik
 accise,Special Excise Duty,Droit d'accise spécial,Bijzondere accijns
 energy_contribution,Energy Contribution,Contribution sur l'énergie,Bijdrage op energie
