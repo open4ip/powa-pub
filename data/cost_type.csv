@@ -1,26 +1,26 @@
-slug,name_en,name_fr,name_nl
-distribution_simple,Distribution Costs - Simple,Coûts de distribution - Simple,Distributiekosten – Eenvoudig
-distribution_day,Distribution Costs - Day,Coûts de distribution - Jour,Distributiekosten – Dag
-distribution_night,Distribution Costs - Night,Coûts de distribution - Nuit,Distributiekosten – Nacht
-distribution_night_excl,Distribution Costs - Night Exclusive,Coûts de distribution - Exclusif nuit,Distributiekosten - Exclusief nacht
-distribution,Distribution Costs,Coûts de distribution,Distributiekosten
-transport,Transport Costs,Coûts de transport,Transportkosten
-management,Data Management Costs / Metering and Measurement Activities / Fixed Term,Tarif gestion des données / Activités de mesure et de comptage/Terme fixe,Tarief gegevensbeheer / Meet- en telactiviteiten / Vaste termijn
-management_quarter_hour,"Data Management Costs, based on quarter hours.","Coûts de gestion des données, basés sur un quart d'heure.","Kosten voor gegevensbeheer, gebaseerd op kwartieruren."
-management_month_year,"Data Management Costs, based on monthly or yealry index.","Kosten voor gegevensbeheer, gebaseerd op een maandelijkse of jaarlijkse index.","Coûts de gestion des données, basés sur un indice mensuel ou annuel."
-prosumer,Prosumer Tariff,Tarif prosumer,Prosumer prijs
-injection,Injection costs,Coûts d'injection,Injectiekosten
-capacity,Capacity Tariff,Tarif de capacité,Capaciteitstarief
-peak_monthly_avrg,Average monthly peak,Pic mensuel moyen,Gemiddelde maandpiek
-peak,Peak consumption,Consommation de pointe,Piekverbruik
-accise,Special Excise Duty,Droit d'accise spécial,Bijzondere accijns
-energy_contribution,Energy Contribution,Contribution sur l'énergie,Bijdrage op energie
-connection,Connection Fee,Redevance de raccordement,Aansluitkosten
-green_certs,Green Certificates Contribution,Contribution Certificats verts,Bijdrage Groencertificaten
-cogen,Cogeneration Contribution,Contribution Cogénération,Bijdrage warmtekrachtkoppeling
-public_service,Public Service Obligations,Obligations de service publique,Openbaredienstverplichtingen
-maximum,Maximum cost,Coût maximum,Maximale kosten
-road_fee,Road fee,Redevance de voirie,Wegenbelasting
-corp_tax,Corporate tax,Impôt sur les sociétés,Vennootschapsbelasting
-reg_balance,Rate for regulatory balances,Tarif pour les soldes régulatoires,Prijs voor gereguleerde verkopen
-other_tax,"Other local, provincial or regional taxes","Autres impôts locaux, provinciaux ou régionaux","Andere lokale, provinciale of regionale belastingen"
+slug,name_en,name_fr,name_nl,color
+distribution_simple,Distribution Costs - Simple,Coûts de distribution - Simple,Distributiekosten – Eenvoudig,#d5f5e3
+distribution_day,Distribution Costs - Day,Coûts de distribution - Jour,Distributiekosten – Dag,#abebc6
+distribution_night,Distribution Costs - Night,Coûts de distribution - Nuit,Distributiekosten – Nacht,#82e0aa
+distribution_night_excl,Distribution Costs - Night Exclusive,Coûts de distribution - Exclusif nuit,Distributiekosten - Exclusief nacht,#58d68d
+distribution,Distribution Costs,Coûts de distribution,Distributiekosten,#2ecc71
+transport,Transport Costs,Coûts de transport,Transportkosten,#28b463
+management,Data Management Costs / Metering and Measurement Activities / Fixed Term,Tarif gestion des données / Activités de mesure et de comptage/Terme fixe,Tarief gegevensbeheer / Meet- en telactiviteiten / Vaste termijn,#85c1e9
+management_quarter_hour,"Data Management Costs, based on quarter hours.","Coûts de gestion des données, basés sur un quart d'heure.","Kosten voor gegevensbeheer, gebaseerd op kwartieruren.",#5dade2
+management_month_year,"Data Management Costs, based on monthly or yealry index.","Kosten voor gegevensbeheer, gebaseerd op een maandelijkse of jaarlijkse index.","Coûts de gestion des données, basés sur un indice mensuel ou annuel.",#3498db
+prosumer,Prosumer Tariff,Tarif prosumer,Prosumer prijs,#f0b27a
+injection,Injection costs,Coûts d'injection,Injectiekosten,#e67e22
+capacity,Capacity Tariff,Tarif de capacité,Capaciteitstarief,#1f618d
+peak_monthly_avrg,Average monthly peak,Pic mensuel moyen,Gemiddelde maandpiek,#f1948a
+peak,Peak consumption,Consommation de pointe,Piekverbruik,#cb4335
+accise,Special Excise Duty,Droit d'accise spécial,Bijzondere accijns,#edbb99
+energy_contribution,Energy Contribution,Contribution sur l'énergie,Bijdrage op energie,#e59866
+connection,Connection Fee,Redevance de raccordement,Aansluitkosten,#dc7633
+green_certs,Green Certificates Contribution,Contribution Certificats verts,Bijdrage Groencertificaten,#1d8348
+cogen,Cogeneration Contribution,Contribution Cogénération,Bijdrage warmtekrachtkoppeling,#186a3b
+public_service,Public Service Obligations,Obligations de service publique,Openbaredienstverplichtingen,#d7bde2
+maximum,Maximum cost,Coût maximum,Maximale kosten,#f1948a
+road_fee,Road fee,Redevance de voirie,Wegenbelasting,#e6b0aa
+corp_tax,Corporate tax,Impôt sur les sociétés,Vennootschapsbelasting,#d98880
+reg_balance,Rate for regulatory balances,Tarif pour les soldes régulatoires,Prijs voor gereguleerde verkopen,#d7bde2
+other_tax,"Other local, provincial or regional taxes","Autres impôts locaux, provinciaux ou régionaux","Andere lokale, provinciale of regionale belastingen",#e5e8e8
