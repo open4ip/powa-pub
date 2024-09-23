@@ -1,23 +1,23 @@
-slug,name,country
-sibelga,Sibelga,be
-aieg,AIEG,be
-aiesh,AIESH,be
-ores_brabant_wallon,ORES (Brabant Wallon),be
-ores_est,ORES (EST),be
-ores_hainaut,ORES (Hainaut Electricité),be
-ores_luxembourg,ORES (Luxembourg),be
-ores_mouscron,ORES (Mouscron),be
-ores_namur,ORES (Namur),be
-ores_verviers,ORES (Verviers),be
-tecteo_resa,TECTEO RESA,be
-wavre,WAVRE,be
-fluvius_gaselwest,Fluvius (Gaselwest),be
-fluvius_imewo,Fluvius (Imewo),be
-fluvius_intergem,Fluvius (Intergem),be
-fluvius_iveka,Fluvius (Iveka),be
-fluvius_iverlek,Fluvius (Iverlek),be
-fluvius_pbe,Fluvius (Pbe),be
-fluvius_sibelgas,Fluvius (Sibelgas),be
-fluvius_antwerpen,Fluvius (Antwerpen),be
-fluvius_limburg,Fluvius (Limburg),be
-fluvius_west,Fluvius (West),be
+slug,name,country,file_types
+sibelga,Sibelga,be,
+aieg,AIEG,be,
+aiesh,AIESH,be,
+ores_brabant_wallon,ORES (Brabant Wallon),be,ores_xlsx
+ores_est,ORES (EST),be,ores_xlsx
+ores_hainaut,ORES (Hainaut Electricité),be,ores_xlsx
+ores_luxembourg,ORES (Luxembourg),be,ores_xlsx
+ores_mouscron,ORES (Mouscron),be,ores_xlsx
+ores_namur,ORES (Namur),be,ores_xlsx
+ores_verviers,ORES (Verviers),be,ores_xlsx
+tecteo_resa,TECTEO RESA,be,"resa_consumed_csv,resa_injected_csv"
+wavre,WAVRE,be,
+fluvius_gaselwest,Fluvius (Gaselwest),be,fluvius_csv
+fluvius_imewo,Fluvius (Imewo),be,fluvius_csv
+fluvius_intergem,Fluvius (Intergem),be,fluvius_csv
+fluvius_iveka,Fluvius (Iveka),be,fluvius_csv
+fluvius_iverlek,Fluvius (Iverlek),be,fluvius_csv
+fluvius_pbe,Fluvius (Pbe),be,fluvius_csv
+fluvius_sibelgas,Fluvius (Sibelgas),be,fluvius_csv
+fluvius_antwerpen,Fluvius (Antwerpen),be,fluvius_csv
+fluvius_limburg,Fluvius (Limburg),be,fluvius_csv
+fluvius_west,Fluvius (West),be,fluvius_csv
