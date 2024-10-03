@@ -5,6 +5,7 @@ distribution_night,Distribution Costs - Night,Coûts de distribution - Nuit,Dist
 distribution_night_excl,Distribution Costs - Night Exclusive,Coûts de distribution - Exclusif nuit,Distributiekosten - Exclusief nacht,#58d68d
 distribution,Distribution Costs,Coûts de distribution,Distributiekosten,#2ecc71
 transport,Transport Costs,Coûts de transport,Transportkosten,#28b463
+transport_surcharge,Transport Surcharge,Surcharge Transport,Transporttoeslag,#28b463
 management,Data Management Costs / Metering and Measurement Activities / Fixed Term,Tarif gestion des données / Activités de mesure et de comptage/Terme fixe,Tarief gegevensbeheer / Meet- en telactiviteiten / Vaste termijn,#85c1e9
 management_quarter_hour,"Data Management Costs, based on quarter hours.","Coûts de gestion des données, basés sur un quart d'heure.","Kosten voor gegevensbeheer, gebaseerd op kwartieruren.",#5dade2
 management_month_year,"Data Management Costs, based on monthly or yealry index.","Kosten voor gegevensbeheer, gebaseerd op een maandelijkse of jaarlijkse index.","Coûts de gestion des données, basés sur un indice mensuel ou annuel.",#3498db
