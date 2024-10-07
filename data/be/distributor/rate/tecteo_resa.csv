@@ -13,7 +13,7 @@ tecteo_resa,smart,true,day,per_kwh,distribution_day,0.0130904,21,7:00:00,22:00:0
 tecteo_resa,smart,true,night,per_kwh,distribution_night,0.005191,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 tecteo_resa,smart,true,night_excl,per_kwh,distribution_night_excl,0.0039497,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 tecteo_resa,smart,true,,annual_per_kw,peak,3.4611968,21,,,,, 2020-01-01, 2020-12-31,Pointe historique pendant la période tarifaire de pointe
-tecteo_resa,smart,true,,annual_per_kw,peak,1.1537323,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
+tecteo_resa,smart,true,,annual_per_kw,peak_monthly_avrg,1.1537323,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
 tecteo_resa,,,,annual_per_kw,prosumer,62.84,21,,,,, 2020-01-01, 2020-12-31,
 tecteo_resa,,,,annual,injection,12.85,21,,,,, 2020-01-01, 2020-12-31,
 tecteo_resa,,,,per_kwh,injection,2.6159225,21,,,,, 2020-01-01, 2020-12-31,
@@ -41,7 +41,7 @@ tecteo_resa,smart,true,day,per_kwh,distribution_day,0.0134310,21,7:00:00,22:00:0
 tecteo_resa,smart,true,night,per_kwh,distribution_night,0.0053261,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 tecteo_resa,smart,true,night_excl,per_kwh,distribution_night_excl,0.0040525,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 tecteo_resa,smart,true,,annual_per_kw,peak,3.9793633,21,,,,, 2021-01-01, 2021-12-31,Pointe historique pendant la période tarifaire de pointe
-tecteo_resa,smart,true,,annual_per_kw,peak,1.3264544,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
+tecteo_resa,smart,true,,annual_per_kw,peak_monthly_avrg,1.3264544,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
 tecteo_resa,,,,annual_per_kw,prosumer,63.69,21,,,,, 2021-01-01, 2021-12-31,
 tecteo_resa,,,,annual,injection,13.11,21,,,,, 2021-01-01, 2021-12-31,
 tecteo_resa,,,,per_kwh,injection,2.656731,21,,,,, 2021-01-01, 2021-12-31,
@@ -69,7 +69,7 @@ tecteo_resa,smart,true,day,per_kwh,distribution_day,0.0133532,21,7:00:00,22:00:0
 tecteo_resa,smart,true,night,per_kwh,distribution_night,0.0052952,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 tecteo_resa,smart,true,night_excl,per_kwh,distribution_night_excl,0.004029,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 tecteo_resa,smart,true,,annual_per_kw,peak,3.9563029,21,,,,, 2022-01-01, 2022-02-28,Pointe historique pendant la période tarifaire de pointe
-tecteo_resa,smart,true,,annual_per_kw,peak,1.3187676,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
+tecteo_resa,smart,true,,annual_per_kw,peak_monthly_avrg,1.3187676,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
 tecteo_resa,,,,annual_per_kw,prosumer,63.53,21,,,,, 2022-01-01, 2022-02-28,
 tecteo_resa,,,,annual,injection,13.38,21,,,,, 2022-01-01, 2022-02-28,
 tecteo_resa,,,,per_kwh,injection,2.6981447,21,,,,, 2022-01-01, 2022-02-28,
@@ -97,7 +97,7 @@ tecteo_resa,smart,true,day,per_kwh,distribution_day,0.0133532,6,7:00:00,22:00:00
 tecteo_resa,smart,true,night,per_kwh,distribution_night,0.0052952,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 tecteo_resa,smart,true,night_excl,per_kwh,distribution_night_excl,0.004029,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 tecteo_resa,smart,true,,annual_per_kw,peak,3.9563029,6,,,,, 2022-03-01, 2022-12-31,Pointe historique pendant la période tarifaire de pointe
-tecteo_resa,smart,true,,annual_per_kw,peak,1.3187676,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
+tecteo_resa,smart,true,,annual_per_kw,peak_monthly_avrg,1.3187676,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
 tecteo_resa,,,,annual_per_kw,prosumer,63.53,6,,,,, 2022-03-01, 2022-12-31,
 tecteo_resa,,,,annual,injection,13.38,6,,,,, 2022-03-01, 2022-12-31,
 tecteo_resa,,,,per_kwh,injection,2.6981447,6,,,,, 2022-03-01, 2022-12-31,
@@ -125,7 +125,7 @@ tecteo_resa,smart,true,day,per_kwh,distribution_day,0.0133602,6,7:00:00,22:00:00
 tecteo_resa,smart,true,night,per_kwh,distribution_night,0.005298,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 tecteo_resa,smart,true,night_excl,per_kwh,distribution_night_excl,0.0040311,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 tecteo_resa,smart,true,,annual_per_kw,peak,3.9583830,6,,,,, 2023-01-01, 2023-12-31,Pointe historique pendant la période tarifaire de pointe
-tecteo_resa,smart,true,,annual_per_kw,peak,1.3194610,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
+tecteo_resa,smart,true,,annual_per_kw,peak_monthly_avrg,1.3194610,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
 tecteo_resa,,,,annual_per_kw,prosumer,63.79,6,,,,, 2023-01-01, 2023-12-31,
 tecteo_resa,,,,annual,injection,13.66,6,,,,, 2023-01-01, 2023-12-31,
 tecteo_resa,,,,per_kwh,injection,2.7401973,6,,,,, 2023-01-01, 2023-12-31,
@@ -153,7 +153,7 @@ tecteo_resa,smart,true,day,per_kwh,distribution_day,0.0147295,6,7:00:00,22:00:00
 tecteo_resa,smart,true,night,per_kwh,distribution_night,0.005841,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 tecteo_resa,smart,true,night_excl,per_kwh,distribution_night_excl,0.0044442,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 tecteo_resa,smart,true,,annual_per_kw,peak,4.3644856,6,,,,, 2024-01-01, 2024-12-31,Pointe historique pendant la période tarifaire de pointe
-tecteo_resa,smart,true,,annual_per_kw,peak,1.4548285,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
+tecteo_resa,smart,true,,annual_per_kw,peak_monthly_avrg,1.4548285,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
 tecteo_resa,,,,annual_per_kw,prosumer,66.67,6,,,,, 2024-01-01, 2024-12-31,
 tecteo_resa,,,,annual,injection,13.65,6,,,,, 2024-01-01, 2024-12-31,
 tecteo_resa,,,,per_kwh,injection,2.7401973,6,,,,, 2024-01-01, 2024-12-31,
