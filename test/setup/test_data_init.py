@@ -6,12 +6,12 @@ from setup.data_init import data_init
 logger = logging.getLogger(__name__)
 
 
-class TestSetup():
+class TestSetup(): # pylint: disable=too-few-public-methods
     """ Test setup """
 
     def test_data_init(self):
         """ Test data_init """
-        
+
         (cost_types,
          distributors,
          distributor_rates,

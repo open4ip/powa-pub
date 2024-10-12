@@ -254,13 +254,13 @@ def data_init(): # pylint: disable=too-many-locals, too-many-branches, too-many-
                     )
                     supplier_rates.append(supplier_rate)
 
-    return (
-        cost_types,
-        distributors,
-        distributor_rates,
-        suppliers,
-        supplier_contracts,
-        supplier_rates,
-        markets,
-        market_rates
-    )
+    return {
+        'cost_types': cost_types,
+        'distributors': distributors,
+        'distributor_rates': distributor_rates,
+        'suppliers': suppliers,
+        'supplier_contracts': supplier_contracts,
+        'supplier_rates': supplier_rates,
+        'markets': markets,
+        'market_rates': market_rates
+    }

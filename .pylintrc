@@ -64,6 +64,7 @@ ignored-modules=
 # Python code to execute, usually for sys.path manipulation such as
 # pygtk.require().
 #init-hook=
+init-hook='import sys; sys.path.append("./")'
 
 # Use multiple processes to speed up Pylint. Specifying 0 will auto-detect the
 # number of processors available to use, and will cap the count on Windows to
@@ -146,7 +147,8 @@ confidence=HIGH,
 # --enable=similarities". If you want to run only the classes checker, but have
 # no Warning level messages displayed, use "--disable=all --enable=classes
 # --disable=W".
-disable=duplicate-code
+disable=duplicate-code,
+    logging-fstring-interpolation
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
