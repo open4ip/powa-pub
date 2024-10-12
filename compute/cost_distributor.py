@@ -1,12 +1,12 @@
-""" Costing utils """
+""" Distributor cost utils """
 import logging
 
 logger = logging.getLogger(__name__)
 
 
-def cost_distributor(
+def cost_distributor( # pylint: disable=too-many-arguments, too-many-locals, too-many-branches, too-many-statements, too-many-positional-arguments
         consumed_kwh, consumed_day_kwh, consumed_night_kwh,
-        injected_kwh, injected_day_kwh, injected_night_kwh,
+        injected_kwh, injected_day_kwh, injected_night_kwh, # pylint: disable=unused-argument
         peak_kw,
         occurence,
         distributor_rates,
@@ -14,7 +14,7 @@ def cost_distributor(
         days_in_month
     ):
     """
-    Based metered data, compute the cost of from the electricity distributor.
+    Based on metered data, compute the cost of from the electricity distributor.
 
     Args:
     - consumed_kwh. Integer. Optional. Consumed kWh.
@@ -54,13 +54,17 @@ def cost_distributor(
     - amount_eur_total. Float. Total amount in EUR.
     - amount_eur_tincl_total. Float. Total amount in EUR tax included.
     """
+
+    # Init response
     cost_items = []
     amount_eur_total = 0
     amount_eur_tincl_total = 0
 
     for rate in distributor_rates:
 
-        # Create new cost item
+        #logger.debug(f'rate:{rate}')
+
+        # Init cost item
         cost_item = {
             'source': 'distributor',
             'type': rate.cost_type.slug,
@@ -83,7 +87,7 @@ def cost_distributor(
                 cost_item['amount_eur'] = rate.amount_eur * consumed_night_kwh
 
             # elif rate.cost_type == 'distribution_night_excl':
-            #     TODO
+            # TBD
             elif rate.cost_type.slug in ['transport',
                                     'energy_contribution',
                                     'connection',
@@ -94,9 +98,9 @@ def cost_distributor(
                                         + consumed_day_kwh
                                         + consumed_night_kwh)
                 # Total kwh injected
-                total_kwh_injected = (injected_kwh
-                                        + injected_day_kwh
-                                        + injected_night_kwh)
+                # total_kwh_injected = (injected_kwh
+                #                         + injected_day_kwh
+                #                         + injected_night_kwh)
 
                 # Use all consumed kWh
                 cost_item['amount_eur'] = rate.amount_eur * total_kwh_consumed
@@ -149,5 +153,8 @@ def cost_distributor(
         # Compute totals
         amount_eur_total += cost_item['amount_eur']
         amount_eur_tincl_total += cost_item['amount_eur_tincl']
+
+    amount_eur_total = round(amount_eur_total, 3)
+    amount_eur_tincl_total = round(amount_eur_tincl_total, 3)
 
     return cost_items, amount_eur_total, amount_eur_tincl_total
