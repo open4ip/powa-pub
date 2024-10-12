@@ -23,6 +23,6 @@ jobs:
     - name: Pylint Web tests
       working-directory: .
       run: |
-        pylint --load-plugins pylint_django compute/**/*.py
-        pylint --load-plugins pylint_django setup/**/*.py
-        pylint --load-plugins pylint_django test/**/*.py
+        pylint compute/**/*.py
+        pylint setup/**/*.py
+        pylint test/**/*.py
