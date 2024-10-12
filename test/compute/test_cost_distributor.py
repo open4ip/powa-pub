@@ -1,5 +1,4 @@
 """ Test cost_distributor """
-import json
 import logging
 
 from compute.cost_distributor import cost_distributor
@@ -24,7 +23,7 @@ class TestCostDistributor(): # pylint: disable=too-few-public-methods
 
         #logger.debug(f'rates:{rates}')
 
-        cost_items, amount_eur_total, amount_eur_tincl_total = cost_distributor(
+        cost_items, amount_eur_total, amount_eur_tincl_total = cost_distributor( # pylint: disable=unused-variable
             consumed_kwh=1000,
             consumed_day_kwh=1000,
             consumed_night_kwh=1000,
