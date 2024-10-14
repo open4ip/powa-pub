@@ -4,8 +4,6 @@ import glob
 import logging
 import os
 
-from decimal import Decimal
-
 from setup.data_init import data_init
 from compute.cost_supplier import cost_supplier
 
@@ -14,7 +12,7 @@ logger = logging.getLogger(__name__)
 class TestCostSupplier(): # pylint: disable=too-few-public-methods
     """ TestCostSupplier """
 
-    def test_cost_supplier(self):
+    def test_cost_supplier(self): # pylint: disable=too-many-locals
         """ Test cost_distributor """
 
         # Init data

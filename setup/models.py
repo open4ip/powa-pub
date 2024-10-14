@@ -24,7 +24,7 @@ class DistributorRate: # pylint: disable=too-many-instance-attributes
     """ DistributorRate """
     distributor: Distributor
     rate_occurrence: str
-    cost_type: str
+    cost_type: CostType
     counter_type: str
     peak_enabled: bool
     day_time_type: str
@@ -57,6 +57,7 @@ class SupplierRate: # pylint: disable=too-many-instance-attributes
     """ SupplierRate """
     supplier_contract: SupplierContract
     rate_occurrence: str
+    cost_type: CostType
     direction: str
     day_time_type: str
     amount_eur: float

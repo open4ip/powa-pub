@@ -247,11 +247,16 @@ def data_init(): # pylint: disable=too-many-locals, too-many-branches, too-many-
                         if supplier_contract.slug == row['supplier_contract']:
                             break
 
+                    for cost_type in cost_types:
+                        if cost_type.slug == row['cost_type']:
+                            break
+
                     # Create or update SupplierRate
                     supplier_rate = SupplierRate(
                         supplier_contract = supplier_contract,
                         rate_occurrence = row['rate_occurrence'],
                         direction = row['direction'],
+                        cost_type = cost_type,
                         day_time_type = day_time_type,
                         amount_eur = amount_eur,
                         tax_pct = row['tax_pct'],

@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 class TestCostDistributor(): # pylint: disable=too-few-public-methods
     """ TestCostDistributor """
 
-    def test_cost_distributor(self):
+    def test_cost_distributor(self): # pylint: disable=too-many-locals
         """ Test cost_distributor """
 
         # Init data
@@ -77,7 +77,7 @@ class TestCostDistributor(): # pylint: disable=too-few-public-methods
                         #logger.debug(f'distributor_rates:{distributor_rates}')
 
                         # Compute cost
-                        cost_items, amount_eur_total, amount_eur_tincl_total = cost_distributor(
+                        cost_items, amount_eur_total, amount_eur_tincl_total = cost_distributor( # pylint: disable=unused-variable
                             consumed_kwh,
                             consumed_day_kwh,
                             consumed_night_kwh,
