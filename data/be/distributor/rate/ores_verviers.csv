@@ -13,7 +13,7 @@ ores_verviers,smart,true,day,per_kwh,distribution_day,0.0044602,21,7:00:00,22:00
 ores_verviers,smart,true,night,per_kwh,distribution_night,0.0044602,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_verviers,smart,true,night_excl,per_kwh,distribution_night_excl,0.0044602,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_verviers,smart,true,,annual_per_kw,peak,6.3832508,21,,,,, 2020-01-01, 2020-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_verviers,smart,true,,annual_per_kw,peak,2.1277503,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_verviers,smart,true,,annual_per_kw,peak_monthly_avrg,2.1277503,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_verviers,,,,annual_per_kw,prosumer,81.6846934,21,,,,, 2020-01-01, 2020-12-31,
 ores_verviers,,,,per_kwh,public_service,0.01294430,21,,,,, 2020-01-01, 2020-12-31,
 ores_verviers,,,,per_kwh,road_fee,0.00291250,21,,,,, 2020-01-01, 2020-12-31,
@@ -39,7 +39,7 @@ ores_verviers,smart,true,day,per_kwh,distribution_day,0.0044233,21,7:00:00,22:00
 ores_verviers,smart,true,night,per_kwh,distribution_night,0.0044233,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_verviers,smart,true,night_excl,per_kwh,distribution_night_excl,0.00442330,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_verviers,smart,true,,annual_per_kw,peak,6.5150961,21,,,,, 2021-01-01, 2021-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_verviers,smart,true,,annual_per_kw,peak,2.1716987,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_verviers,smart,true,,annual_per_kw,peak_monthly_avrg,2.1716987,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_verviers,,,,annual_per_kw,prosumer,81.64357390,21,,,,, 2021-01-01, 2021-12-31,
 ores_verviers,,,,per_kwh,public_service,0.0127986,21,,,,, 2021-01-01, 2021-12-31,
 ores_verviers,,,,per_kwh,road_fee,0.002955,21,,,,, 2021-01-01, 2021-12-31,
@@ -65,7 +65,7 @@ ores_verviers,smart,true,day,per_kwh,distribution_day,0.00444070,21,7:00:00,22:0
 ores_verviers,smart,true,night,per_kwh,distribution_night,0.00444070,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_verviers,smart,true,night_excl,per_kwh,distribution_night_excl,0.0044407,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_verviers,smart,true,,annual_per_kw,peak,6.6225978,21,,,,, 2022-01-01, 2022-02-28,Pointe historique pendant la période tarifaire de pointe
-ores_verviers,smart,true,,annual_per_kw,peak,2.2075326,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
+ores_verviers,smart,true,,annual_per_kw,peak_monthly_avrg,2.2075326,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
 ores_verviers,,,,annual_per_kw,prosumer,81.8766976,21,,,,, 2022-01-01, 2022-02-28,
 ores_verviers,,,,per_kwh,public_service,0.0121908,21,,,,, 2022-01-01, 2022-02-28,
 ores_verviers,,,,per_kwh,road_fee,0.0029976,21,,,,, 2022-01-01, 2022-02-28,
@@ -91,7 +91,7 @@ ores_verviers,smart,true,day,per_kwh,distribution_day,0.00444070,6,7:00:00,22:00
 ores_verviers,smart,true,night,per_kwh,distribution_night,0.00444070,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_verviers,smart,true,night_excl,per_kwh,distribution_night_excl,0.0044407,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_verviers,smart,true,,annual_per_kw,peak,6.6225978,6,,,,, 2022-03-01, 2022-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_verviers,smart,true,,annual_per_kw,peak,2.2075326,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_verviers,smart,true,,annual_per_kw,peak_monthly_avrg,2.2075326,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_verviers,,,,annual_per_kw,prosumer,81.8766976,6,,,,, 2022-03-01, 2022-12-31,
 ores_verviers,,,,per_kwh,public_service,0.0121908,6,,,,, 2022-03-01, 2022-12-31,
 ores_verviers,,,,per_kwh,road_fee,0.0029976,6,,,,, 2022-03-01, 2022-12-31,
@@ -117,7 +117,7 @@ ores_verviers,smart,true,day,per_kwh,distribution_day,0.0043672,6,7:00:00,22:00:
 ores_verviers,smart,true,night,per_kwh,distribution_night,0.0043672,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_verviers,smart,true,night_excl,per_kwh,distribution_night_excl,0.0043672,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_verviers,smart,true,,annual_per_kw,peak,6.6967377,6,,,,, 2023-01-01, 2023-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_verviers,smart,true,,annual_per_kw,peak,2.2322459,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_verviers,smart,true,,annual_per_kw,peak_monthly_avrg,2.2322459,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_verviers,,,,annual_per_kw,prosumer,80.2310122,6,,,,, 2023-01-01, 2023-12-31,
 ores_verviers,,,,per_kwh,public_service,0.0118656,6,,,,, 2023-01-01, 2023-12-31,
 ores_verviers,,,,per_kwh,road_fee,0.0030407,6,,,,, 2023-01-01, 2023-12-31,
@@ -143,7 +143,7 @@ ores_verviers,smart,true,day,per_kwh,distribution_day,0.0049533,6,7:00:00,22:00:
 ores_verviers,smart,true,night,per_kwh,distribution_night,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_verviers,smart,true,night_excl,per_kwh,distribution_night_excl,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_verviers,smart,true,,annual_per_kw,peak,5.9569810,6,,,,, 2024-01-01, 2024-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_verviers,smart,true,,annual_per_kw,peak,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_verviers,smart,true,,annual_per_kw,peak_monthly_avrg,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_verviers,,,,annual_per_kw,prosumer,62.4472343,6,,,,, 2024-01-01, 2024-12-31,
 ores_verviers,,,,annual,injection,13.66,6,,,,, 2024-01-01, 2024-12-31,
 ores_verviers,,,,per_kwh,injection,2.7401973,6,,,,, 2024-01-01, 2024-12-31,

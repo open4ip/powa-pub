@@ -13,7 +13,7 @@ ores_hainaut,smart,true,day,per_kwh,distribution_day,0.0072936,21,7:00:00,22:00:
 ores_hainaut,smart,true,night,per_kwh,distribution_night,0.0072936,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_hainaut,smart,true,night_excl,per_kwh,distribution_night_excl,0.0072936,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_hainaut,smart,true,,annual_per_kw,peak,4.4696087,21,,,,, 2020-01-01, 2020-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_hainaut,smart,true,,annual_per_kw,peak,1.4898696,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_hainaut,smart,true,,annual_per_kw,peak_monthly_avrg,1.4898696,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_hainaut,,,,annual_per_kw,prosumer,70.8958712,21,,,,, 2020-01-01, 2020-12-31,
 ores_hainaut,,,,per_kwh,public_service,0.01073290,21,,,,, 2020-01-01, 2020-12-31,
 ores_hainaut,,,,per_kwh,road_fee,0.00289580,21,,,,, 2020-01-01, 2020-12-31,
@@ -39,7 +39,7 @@ ores_hainaut,smart,true,day,per_kwh,distribution_day,0.0073395,21,7:00:00,22:00:
 ores_hainaut,smart,true,night,per_kwh,distribution_night,0.0073395,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_hainaut,smart,true,night_excl,per_kwh,distribution_night_excl,0.00733950,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_hainaut,smart,true,,annual_per_kw,peak,4.5756507,21,,,,, 2021-01-01, 2021-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_hainaut,smart,true,,annual_per_kw,peak,1.5252169,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_hainaut,smart,true,,annual_per_kw,peak_monthly_avrg,1.5252169,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_hainaut,,,,annual_per_kw,prosumer,70.63975230,21,,,,, 2021-01-01, 2021-12-31,
 ores_hainaut,,,,per_kwh,public_service,0.0109643,21,,,,, 2021-01-01, 2021-12-31,
 ores_hainaut,,,,per_kwh,road_fee,0.0029379,21,,,,, 2021-01-01, 2021-12-31,
@@ -65,7 +65,7 @@ ores_hainaut,smart,true,day,per_kwh,distribution_day,0.00733510,21,7:00:00,22:00
 ores_hainaut,smart,true,night,per_kwh,distribution_night,0.00733510,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_hainaut,smart,true,night_excl,per_kwh,distribution_night_excl,0.0073351,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_hainaut,smart,true,,annual_per_kw,peak,4.6632353,21,,,,, 2022-01-01, 2022-02-28,Pointe historique pendant la période tarifaire de pointe
-ores_hainaut,smart,true,,annual_per_kw,peak,1.5544118,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
+ores_hainaut,smart,true,,annual_per_kw,peak_monthly_avrg,1.5544118,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
 ores_hainaut,,,,annual_per_kw,prosumer,71.0361078,21,,,,, 2022-01-01, 2022-02-28,
 ores_hainaut,,,,per_kwh,public_service,0.0106564,21,,,,, 2022-01-01, 2022-02-28,
 ores_hainaut,,,,per_kwh,road_fee,0.00298,21,,,,, 2022-01-01, 2022-02-28,
@@ -91,7 +91,7 @@ ores_hainaut,smart,true,day,per_kwh,distribution_day,0.00733510,6,7:00:00,22:00:
 ores_hainaut,smart,true,night,per_kwh,distribution_night,0.00733510,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_hainaut,smart,true,night_excl,per_kwh,distribution_night_excl,0.0073351,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_hainaut,smart,true,,annual_per_kw,peak,4.6632353,6,,,,, 2022-03-01, 2022-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_hainaut,smart,true,,annual_per_kw,peak,1.5544118,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_hainaut,smart,true,,annual_per_kw,peak_monthly_avrg,1.5544118,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_hainaut,,,,annual_per_kw,prosumer,71.0361078,6,,,,, 2022-03-01, 2022-12-31,
 ores_hainaut,,,,per_kwh,public_service,0.0106564,6,,,,, 2022-03-01, 2022-12-31,
 ores_hainaut,,,,per_kwh,road_fee,0.00298,6,,,,, 2022-03-01, 2022-12-31,
@@ -117,7 +117,7 @@ ores_hainaut,smart,true,day,per_kwh,distribution_day,0.0072599,6,7:00:00,22:00:0
 ores_hainaut,smart,true,night,per_kwh,distribution_night,0.0072599,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_hainaut,smart,true,night_excl,per_kwh,distribution_night_excl,0.0072599,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_hainaut,smart,true,,annual_per_kw,peak,4.6970137,6,,,,, 2023-01-01, 2023-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_hainaut,smart,true,,annual_per_kw,peak,1.5656712,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_hainaut,smart,true,,annual_per_kw,peak_monthly_avrg,1.5656712,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_hainaut,,,,annual_per_kw,prosumer,70.1318758,6,,,,, 2023-01-01, 2023-12-31,
 ores_hainaut,,,,per_kwh,public_service,0.0104888,6,,,,, 2023-01-01, 2023-12-31,
 ores_hainaut,,,,per_kwh,road_fee,0.0030226,6,,,,, 2023-01-01, 2023-12-31,
@@ -143,7 +143,7 @@ ores_hainaut,smart,true,day,per_kwh,distribution_day,0.0049533,6,7:00:00,22:00:0
 ores_hainaut,smart,true,night,per_kwh,distribution_night,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_hainaut,smart,true,night_excl,per_kwh,distribution_night_excl,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_hainaut,smart,true,,annual_per_kw,peak,5.9569810,6,,,,, 2024-01-01, 2024-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_hainaut,smart,true,,annual_per_kw,peak,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_hainaut,smart,true,,annual_per_kw,peak_monthly_avrg,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_hainaut,,,,annual_per_kw,prosumer,62.4472343,6,,,,, 2024-01-01, 2024-12-31,
 ores_hainaut,,,,annual,injection,13.66,6,,,,, 2024-01-01, 2024-12-31,
 ores_hainaut,,,,per_kwh,injection,2.7401973,6,,,,, 2024-01-01, 2024-12-31,

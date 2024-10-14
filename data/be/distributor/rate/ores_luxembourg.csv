@@ -13,7 +13,7 @@ ores_luxembourg,smart,true,day,per_kwh,distribution_day,0.0035588,21,7:00:00,22:
 ores_luxembourg,smart,true,night,per_kwh,distribution_night,0.0035588,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_luxembourg,smart,true,night_excl,per_kwh,distribution_night_excl,0.0035588,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_luxembourg,smart,true,,annual_per_kw,peak,6.0538360,21,,,,, 2020-01-01, 2020-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_luxembourg,smart,true,,annual_per_kw,peak,2.0179453,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_luxembourg,smart,true,,annual_per_kw,peak_monthly_avrg,2.0179453,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_luxembourg,,,,annual_per_kw,prosumer,73.9977298,21,,,,, 2020-01-01, 2020-12-31,
 ores_luxembourg,,,,per_kwh,public_service,0.00883770,21,,,,, 2020-01-01, 2020-12-31,
 ores_luxembourg,,,,per_kwh,road_fee,0.00273690,21,,,,, 2020-01-01, 2020-12-31,
@@ -39,7 +39,7 @@ ores_luxembourg,smart,true,day,per_kwh,distribution_day,0.0035528,21,7:00:00,22:
 ores_luxembourg,smart,true,night,per_kwh,distribution_night,0.0035528,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_luxembourg,smart,true,night_excl,per_kwh,distribution_night_excl,0.00355280,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_luxembourg,smart,true,,annual_per_kw,peak,6.1740313,21,,,,, 2021-01-01, 2021-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_luxembourg,smart,true,,annual_per_kw,peak,2.0580104,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_luxembourg,smart,true,,annual_per_kw,peak_monthly_avrg,2.0580104,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_luxembourg,,,,annual_per_kw,prosumer,74.61576800,21,,,,, 2021-01-01, 2021-12-31,
 ores_luxembourg,,,,per_kwh,public_service,0.0086533,21,,,,, 2021-01-01, 2021-12-31,
 ores_luxembourg,,,,per_kwh,road_fee,0.0027769,21,,,,, 2021-01-01, 2021-12-31,
@@ -65,7 +65,7 @@ ores_luxembourg,smart,true,day,per_kwh,distribution_day,0.00355500,21,7:00:00,22
 ores_luxembourg,smart,true,night,per_kwh,distribution_night,0.00355500,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_luxembourg,smart,true,night_excl,per_kwh,distribution_night_excl,0.0035550,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_luxembourg,smart,true,,annual_per_kw,peak,6.2760974,21,,,,, 2022-01-01, 2022-02-28,Pointe historique pendant la période tarifaire de pointe
-ores_luxembourg,smart,true,,annual_per_kw,peak,2.0920324,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
+ores_luxembourg,smart,true,,annual_per_kw,peak_monthly_avrg,2.0920324,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
 ores_luxembourg,,,,annual_per_kw,prosumer,74.9020751,21,,,,, 2022-01-01, 2022-02-28,
 ores_luxembourg,,,,per_kwh,public_service,0.0081558,21,,,,, 2022-01-01, 2022-02-28,
 ores_luxembourg,,,,per_kwh,road_fee,0.0028169,21,,,,, 2022-01-01, 2022-02-28,
@@ -91,7 +91,7 @@ ores_luxembourg,smart,true,day,per_kwh,distribution_day,0.00355500,6,7:00:00,22:
 ores_luxembourg,smart,true,night,per_kwh,distribution_night,0.00355500,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_luxembourg,smart,true,night_excl,per_kwh,distribution_night_excl,0.0035550,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_luxembourg,smart,true,,annual_per_kw,peak,6.2760974,6,,,,, 2022-03-01, 2022-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_luxembourg,smart,true,,annual_per_kw,peak,2.0920324,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_luxembourg,smart,true,,annual_per_kw,peak_monthly_avrg,2.0920324,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_luxembourg,,,,annual_per_kw,prosumer,74.9020751,6,,,,, 2022-03-01, 2022-12-31,
 ores_luxembourg,,,,per_kwh,public_service,0.0081558,6,,,,, 2022-03-01, 2022-12-31,
 ores_luxembourg,,,,per_kwh,road_fee,0.0028169,6,,,,, 2022-03-01, 2022-12-31,
@@ -117,7 +117,7 @@ ores_luxembourg,smart,true,day,per_kwh,distribution_day,0.0034339,6,7:00:00,22:0
 ores_luxembourg,smart,true,night,per_kwh,distribution_night,0.0034339,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_luxembourg,smart,true,night_excl,per_kwh,distribution_night_excl,0.0034339,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_luxembourg,smart,true,,annual_per_kw,peak,6.3356977,6,,,,, 2023-01-01, 2023-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_luxembourg,smart,true,,annual_per_kw,peak,2.1118992,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_luxembourg,smart,true,,annual_per_kw,peak_monthly_avrg,2.1118992,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_luxembourg,,,,annual_per_kw,prosumer,75.7246912,6,,,,, 2023-01-01, 2023-12-31,
 ores_luxembourg,,,,per_kwh,public_service,0.0078827,6,,,,, 2023-01-01, 2023-12-31,
 ores_luxembourg,,,,per_kwh,road_fee,0.0028575,6,,,,, 2023-01-01, 2023-12-31,
@@ -143,7 +143,7 @@ ores_luxembourg,smart,true,day,per_kwh,distribution_day,0.0049533,6,7:00:00,22:0
 ores_luxembourg,smart,true,night,per_kwh,distribution_night,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_luxembourg,smart,true,night_excl,per_kwh,distribution_night_excl,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_luxembourg,smart,true,,annual_per_kw,peak,5.9569810,6,,,,, 2024-01-01, 2024-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_luxembourg,smart,true,,annual_per_kw,peak,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_luxembourg,smart,true,,annual_per_kw,peak_monthly_avrg,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_luxembourg,,,,annual_per_kw,prosumer,62.4472343,6,,,,, 2024-01-01, 2024-12-31,
 ores_luxembourg,,,,annual,injection,13.66,6,,,,, 2024-01-01, 2024-12-31,
 ores_luxembourg,,,,per_kwh,injection,2.7401973,6,,,,, 2024-01-01, 2024-12-31,

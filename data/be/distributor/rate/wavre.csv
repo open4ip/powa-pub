@@ -13,7 +13,7 @@ wavre,smart,true,day,per_kwh,distribution_day,0.0033513,21,7:00:00,22:00:00,,,�
 wavre,smart,true,night,per_kwh,distribution_night,0.0024188,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 wavre,smart,true,night_excl,per_kwh,distribution_night_excl,0.0024188,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 wavre,smart,true,,annual_per_kw,peak,10.8984947,21,,,,, 2020-01-01, 2020-12-31,Pointe historique pendant la période tarifaire de pointe
-wavre,smart,true,,annual_per_kw,peak,3.6328316,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
+wavre,smart,true,,annual_per_kw,peak_monthly_avrg,3.6328316,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
 wavre,,,,annual_per_kw,prosumer,73.9346961,21,,,,, 2020-01-01, 2020-12-31,
 wavre,,,,annual,injection,12.85,21,,,,, 2020-01-01, 2020-12-31,
 wavre,,,,per_kwh,injection,2.6159225,21,,,,, 2020-01-01, 2020-12-31,
@@ -41,7 +41,7 @@ wavre,smart,true,day,per_kwh,distribution_day,0.0033199,21,7:00:00,22:00:00,,,�
 wavre,smart,true,night,per_kwh,distribution_night,0.0023961,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 wavre,smart,true,night_excl,per_kwh,distribution_night_excl,0.00239610,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 wavre,smart,true,,annual_per_kw,peak,10.9507463,21,,,,, 2021-01-01, 2021-12-31,Pointe historique pendant la période tarifaire de pointe
-wavre,smart,true,,annual_per_kw,peak,3.6502488,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
+wavre,smart,true,,annual_per_kw,peak_monthly_avrg,3.6502488,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
 wavre,,,,annual_per_kw,prosumer,75.0002178,21,,,,, 2021-01-01, 2021-12-31,
 wavre,,,,annual,injection,13.11,21,,,,, 2021-01-01, 2021-12-31,
 wavre,,,,per_kwh,injection,2.656731,21,,,,, 2021-01-01, 2021-12-31,
@@ -69,7 +69,7 @@ wavre,smart,true,day,per_kwh,distribution_day,0.0032775,21,7:00:00,22:00:00,,,�
 wavre,smart,true,night,per_kwh,distribution_night,0.0023655,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 wavre,smart,true,night_excl,per_kwh,distribution_night_excl,0.0023655,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 wavre,smart,true,,annual_per_kw,peak,11.0029954,21,,,,, 2022-01-01, 2022-02-28,Pointe historique pendant la période tarifaire de pointe
-wavre,smart,true,,annual_per_kw,peak,3.6676651,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
+wavre,smart,true,,annual_per_kw,peak_monthly_avrg,3.6676651,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
 wavre,,,,annual_per_kw,prosumer,76.1147472,21,,,,, 2022-01-01, 2022-02-28,
 wavre,,,,annual,injection,13.3800000,21,,,,, 2022-01-01, 2022-02-28,
 wavre,,,,per_kwh,injection,2.6981447,21,,,,, 2022-01-01, 2022-02-28,
@@ -97,7 +97,7 @@ wavre,smart,true,day,per_kwh,distribution_day,0.0032775,6,7:00:00,22:00:00,,, 
 wavre,smart,true,night,per_kwh,distribution_night,0.0023655,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 wavre,smart,true,night_excl,per_kwh,distribution_night_excl,0.0023655,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 wavre,smart,true,,annual_per_kw,peak,11.0029954,6,,,,, 2022-03-01, 2022-12-31,Pointe historique pendant la période tarifaire de pointe
-wavre,smart,true,,annual_per_kw,peak,3.6676651,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
+wavre,smart,true,,annual_per_kw,peak_monthly_avrg,3.6676651,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
 wavre,,,,annual_per_kw,prosumer,76.1147472,6,,,,, 2022-03-01, 2022-12-31,
 wavre,,,,annual,injection,13.3800000,6,,,,, 2022-03-01, 2022-12-31,
 wavre,,,,per_kwh,injection,2.6981447,6,,,,, 2022-03-01, 2022-12-31,
@@ -125,7 +125,7 @@ wavre,smart,true,day,per_kwh,distribution_day,0.0032542,6,7:00:00,22:00:00,,, 
 wavre,smart,true,night,per_kwh,distribution_night,0.0023284,6,22:00:00,7:00:00,,, 2023-01-01, 2023-02-28,
 wavre,smart,true,night_excl,per_kwh,distribution_night_excl,0.0023284,6,22:00:00,7:00:00,,, 2023-01-01, 2023-02-28,
 wavre,smart,true,,annual_per_kw,peak,11.0549221,6,,,,, 2023-01-01, 2023-02-28,Pointe historique pendant la période tarifaire de pointe
-wavre,smart,true,,annual_per_kw,peak,3.6849740,6,,,,, 2023-01-01, 2023-02-28,Pointe du mois pendant la période tarifaire de pointe
+wavre,smart,true,,annual_per_kw,peak_monthly_avrg,3.6849740,6,,,,, 2023-01-01, 2023-02-28,Pointe du mois pendant la période tarifaire de pointe
 wavre,,,,annual_per_kw,prosumer,73.2769974,6,,,,, 2023-01-01, 2023-02-28,
 wavre,,,,annual,injection,13.66,6,,,,, 2023-01-01, 2023-02-28,
 wavre,,,,per_kwh,injection,2.7401973,6,,,,, 2023-01-01, 2023-02-28,
@@ -153,7 +153,7 @@ wavre,smart,true,day,per_kwh,distribution_day,0.0032542,6,7:00:00,22:00:00,,, 
 wavre,smart,true,night,per_kwh,distribution_night,0.0023284,6,22:00:00,7:00:00,,, 2023-03-01, 2023-12-31,
 wavre,smart,true,night_excl,per_kwh,distribution_night_excl,0.0023284,6,22:00:00,7:00:00,,, 2023-03-01, 2023-12-31,
 wavre,smart,true,,annual_per_kw,peak,11.0549221,6,,,,, 2023-03-01, 2023-12-31,Pointe historique pendant la période tarifaire de pointe
-wavre,smart,true,,annual_per_kw,peak,3.6849740,6,,,,, 2023-03-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
+wavre,smart,true,,annual_per_kw,peak_monthly_avrg,3.6849740,6,,,,, 2023-03-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
 wavre,,,,annual_per_kw,prosumer,73.2769974,6,,,,, 2023-03-01, 2023-12-31,
 wavre,,,,annual,injection,13.66,6,,,,, 2023-03-01, 2023-12-31,
 wavre,,,,per_kwh,injection,2.7401973,6,,,,, 2023-03-01, 2023-12-31,
@@ -181,7 +181,7 @@ wavre,smart,true,day,per_kwh,distribution_day,0.0036637,6,7:00:00,22:00:00,,, 
 wavre,smart,true,night,per_kwh,distribution_night,0.0026215,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 wavre,smart,true,night_excl,per_kwh,distribution_night_excl,0.0026215,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 wavre,smart,true,,annual_per_kw,peak,11.3994559,6,,,,, 2024-01-01, 2024-12-31,Pointe historique pendant la période tarifaire de pointe
-wavre,smart,true,,annual_per_kw,peak,3.7998186,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
+wavre,smart,true,,annual_per_kw,peak_monthly_avrg,3.7998186,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
 wavre,,,,annual_per_kw,prosumer,71.9399638,6,,,,, 2024-01-01, 2024-12-31,
 wavre,,,,annual,injection,13.66,6,,,,, 2024-01-01, 2024-12-31,
 wavre,,,,per_kwh,injection,2.7401973,6,,,,, 2024-01-01, 2024-12-31,

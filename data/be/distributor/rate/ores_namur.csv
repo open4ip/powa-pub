@@ -13,7 +13,7 @@ ores_namur,smart,true,day,per_kwh,distribution_day,0.0045874,21,7:00:00,22:00:00
 ores_namur,smart,true,night,per_kwh,distribution_night,0.0045874,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_namur,smart,true,night_excl,per_kwh,distribution_night_excl,0.0045874,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_namur,smart,true,,annual_per_kw,peak,5.5260146,21,,,,, 2020-01-01, 2020-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_namur,smart,true,,annual_per_kw,peak,1.8420048,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_namur,smart,true,,annual_per_kw,peak_monthly_avrg,1.8420048,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_namur,,,,annual_per_kw,prosumer,72.2365021,21,,,,, 2020-01-01, 2020-12-31,
 ores_namur,,,,per_kwh,public_service,0.00920610,21,,,,, 2020-01-01, 2020-12-31,
 ores_namur,,,,per_kwh,road_fee,0.00283770,21,,,,, 2020-01-01, 2020-12-31,
@@ -39,7 +39,7 @@ ores_namur,smart,true,day,per_kwh,distribution_day,0.0045723,21,7:00:00,22:00:00
 ores_namur,smart,true,night,per_kwh,distribution_night,0.0045723,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_namur,smart,true,night_excl,per_kwh,distribution_night_excl,0.00457230,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_namur,smart,true,,annual_per_kw,peak,5.6443098,21,,,,, 2021-01-01, 2021-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_namur,smart,true,,annual_per_kw,peak,1.8814366,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_namur,smart,true,,annual_per_kw,peak_monthly_avrg,1.8814366,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_namur,,,,annual_per_kw,prosumer,72.86184670,21,,,,, 2021-01-01, 2021-12-31,
 ores_namur,,,,per_kwh,public_service,0.0090226,21,,,,, 2021-01-01, 2021-12-31,
 ores_namur,,,,per_kwh,road_fee,0.0028789,21,,,,, 2021-01-01, 2021-12-31,
@@ -65,7 +65,7 @@ ores_namur,smart,true,day,per_kwh,distribution_day,0.00455790,21,7:00:00,22:00:0
 ores_namur,smart,true,night,per_kwh,distribution_night,0.00455790,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_namur,smart,true,night_excl,per_kwh,distribution_night_excl,0.0045579,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_namur,smart,true,,annual_per_kw,peak,5.7430410,21,,,,, 2022-01-01, 2022-02-28,Pointe historique pendant la période tarifaire de pointe
-ores_namur,smart,true,,annual_per_kw,peak,1.9143470,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
+ores_namur,smart,true,,annual_per_kw,peak_monthly_avrg,1.9143470,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
 ores_namur,,,,annual_per_kw,prosumer,73.1400545,21,,,,, 2022-01-01, 2022-02-28,
 ores_namur,,,,per_kwh,public_service,0.0085229,21,,,,, 2022-01-01, 2022-02-28,
 ores_namur,,,,per_kwh,road_fee,0.00292,21,,,,, 2022-01-01, 2022-02-28,
@@ -91,7 +91,7 @@ ores_namur,smart,true,day,per_kwh,distribution_day,0.00455790,6,7:00:00,22:00:00
 ores_namur,smart,true,night,per_kwh,distribution_night,0.00455790,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_namur,smart,true,night_excl,per_kwh,distribution_night_excl,0.0045579,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_namur,smart,true,,annual_per_kw,peak,5.7430410,6,,,,, 2022-03-01, 2022-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_namur,smart,true,,annual_per_kw,peak,1.9143470,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_namur,smart,true,,annual_per_kw,peak_monthly_avrg,1.9143470,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_namur,,,,annual_per_kw,prosumer,73.1400545,6,,,,, 2022-03-01, 2022-12-31,
 ores_namur,,,,per_kwh,public_service,0.0085229,6,,,,, 2022-03-01, 2022-12-31,
 ores_namur,,,,per_kwh,road_fee,0.00292,6,,,,, 2022-03-01, 2022-12-31,
@@ -117,7 +117,7 @@ ores_namur,smart,true,day,per_kwh,distribution_day,0.0044212,6,7:00:00,22:00:00,
 ores_namur,smart,true,night,per_kwh,distribution_night,0.0044212,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_namur,smart,true,night_excl,per_kwh,distribution_night_excl,0.0044212,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_namur,smart,true,,annual_per_kw,peak,5.7994139,6,,,,, 2023-01-01, 2023-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_namur,smart,true,,annual_per_kw,peak,1.9331380,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_namur,smart,true,,annual_per_kw,peak_monthly_avrg,1.9331380,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_namur,,,,annual_per_kw,prosumer,72.8995112,6,,,,, 2023-01-01, 2023-12-31,
 ores_namur,,,,per_kwh,public_service,0.0082543,6,,,,, 2023-01-01, 2023-12-31,
 ores_namur,,,,per_kwh,road_fee,0.0029617,6,,,,, 2023-01-01, 2023-12-31,
@@ -143,7 +143,7 @@ ores_namur,smart,true,day,per_kwh,distribution_day,0.0049533,6,7:00:00,22:00:00,
 ores_namur,smart,true,night,per_kwh,distribution_night,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_namur,smart,true,night_excl,per_kwh,distribution_night_excl,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_namur,smart,true,,annual_per_kw,peak,5.9569810,6,,,,, 2024-01-01, 2024-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_namur,smart,true,,annual_per_kw,peak,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_namur,smart,true,,annual_per_kw,peak_monthly_avrg,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_namur,,,,annual_per_kw,prosumer,62.4472343,6,,,,, 2024-01-01, 2024-12-31,
 ores_namur,,,,annual,injection,13.66,6,,,,, 2024-01-01, 2024-12-31,
 ores_namur,,,,per_kwh,injection,2.7401973,6,,,,, 2024-01-01, 2024-12-31,

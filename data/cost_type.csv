@@ -25,3 +25,8 @@ road_fee,Road fee,Redevance de voirie,Wegenbelasting,#e6b0aa
 corp_tax,Corporate tax,Impôt sur les sociétés,Vennootschapsbelasting,#d98880
 reg_balance,Rate for regulatory balances,Tarif pour les soldes régulatoires,Prijs voor gereguleerde verkopen,#d7bde2
 other_tax,"Other local, provincial or regional taxes","Autres impôts locaux, provinciaux ou régionaux","Andere lokale, provinciale of regionale belastingen",#e5e8e8
+supply_green_option,Supplier Green energy option,Option fournisseur d'énergie verte,Leverancier Groene energie optie,#1d8348
+supply_green_cost,Supplier Green energy costs,Coûts de l'énergie verte fournisseur,Leverancier Groene energiekosten,#1d8348
+supply_consumption,Supplier consumption costs,Coûts de consommation fournisseur,Leveranciersverbruikskosten,#1f618d
+supply_injection,Supplier injection costs,Coûts d’injection fournisseur,Injectiekosten van leveranciers,#e67e22
+supply_fixed,Supply fixed costs,Coûts de fourniture fixe,Vaste kosten leveren,#1f618f
