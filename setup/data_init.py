@@ -4,6 +4,7 @@ import logging
 import os
 import glob
 
+from datetime import datetime
 from decimal import Decimal
 
 from .models import (
@@ -108,13 +109,20 @@ def data_init(): # pylint: disable=too-many-locals, too-many-branches, too-many-
                 #logger.debug(f'{index} - row:{row}')
 
                 if row['distributor'] != '':
+                    date_format = '%Y-%m-%d'
 
                     date_start = row['date_start'].lstrip().rstrip()
                     if date_start == '':
                         date_start = None
+                    else:
+                        date_start = datetime.strptime(date_start, date_format)
+
                     date_end = row['date_end'].lstrip().rstrip()
                     if date_end == '':
                         date_end = None
+                    else:
+                        date_end = datetime.strptime(date_end, date_format)
+
                     time_of_day_start = row['time_of_day_start'].lstrip().rstrip()
                     if time_of_day_start == '':
                         time_of_day_start = None

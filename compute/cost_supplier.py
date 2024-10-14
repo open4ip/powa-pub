@@ -63,7 +63,7 @@ def cost_supplier( # pylint: disable=too-many-arguments, too-many-locals, too-ma
         # Create new cost item
         cost_item = {
             'source': 'supplier',
-            'type': f'{rate.rate_occurrence}_{rate.direction}_{rate.day_time_type}',
+            'type': rate.cost_type.slug,
             'rate_occurrence': rate.rate_occurrence,
             'amount_eur': 0,
             'amount_eur_tincl': 0
@@ -75,19 +75,35 @@ def cost_supplier( # pylint: disable=too-many-arguments, too-many-locals, too-ma
         rate.tax_pct = float(rate.tax_pct)
 
         if rate.rate_occurrence == 'per_kwh':
-            if rate.day_time_type == 'simple':
-                cost_item['amount_eur'] = rate.amount_eur * consumed_kwh
-                #logger.debug(f'consumed_kwh: {consumed_kwh}')
-            elif rate.day_time_type == 'day':
-                cost_item['amount_eur'] = rate.amount_eur * consumed_day_kwh
-                #logger.debug(f'consumed_day_kwh: {consumed_day_kwh}')
-            elif rate.day_time_type in ['night']:
-                cost_item['amount_eur'] = rate.amount_eur * consumed_night_kwh
-                #logger.debug(f'consumed_night_kwh: {consumed_night_kwh}')
-            elif rate.day_time_type == 'inject':
-                cost_item['amount_eur'] = (
-                    rate.amount_eur * (injected_kwh + injected_day_kwh + injected_night_kwh)
-                )
+            if rate.direction == 'consumer':
+                if rate.day_time_type == 'simple':
+                    cost_item['amount_eur'] = rate.amount_eur * consumed_kwh
+                    #logger.debug(f'consumed_kwh: {consumed_kwh}')
+                elif rate.day_time_type == 'day':
+                    cost_item['amount_eur'] = rate.amount_eur * consumed_day_kwh
+                    #logger.debug(f'consumed_day_kwh: {consumed_day_kwh}')
+                elif rate.day_time_type in ['night']:
+                    cost_item['amount_eur'] = rate.amount_eur * consumed_night_kwh
+                    #logger.debug(f'consumed_night_kwh: {consumed_night_kwh}')
+                elif rate.day_time_type is None:
+                    cost_item['amount_eur'] = (
+                        rate.amount_eur * (consumed_kwh + consumed_day_kwh + consumed_night_kwh)
+                    )
+            elif rate.direction == 'producer':
+                if rate.day_time_type == 'simple':
+                    cost_item['amount_eur'] = rate.amount_eur * injected_kwh
+                    #logger.debug(f'consumed_kwh: {consumed_kwh}')
+                elif rate.day_time_type == 'day':
+                    cost_item['amount_eur'] = rate.amount_eur * injected_day_kwh
+                    #logger.debug(f'consumed_day_kwh: {consumed_day_kwh}')
+                elif rate.day_time_type in ['night']:
+                    cost_item['amount_eur'] = rate.amount_eur * injected_night_kwh
+                    #logger.debug(f'consumed_night_kwh: {consumed_night_kwh}')
+                elif rate.day_time_type is None:
+                    cost_item['amount_eur'] = (
+                        rate.amount_eur * (injected_kwh + injected_day_kwh + injected_night_kwh)
+                    )
+
             #logger.debug(f'rate.amount_eur: {rate.amount_eur}')
             #logger.debug(f'cost_item amount_eur: {cost_item["amount_eur"]}')
 

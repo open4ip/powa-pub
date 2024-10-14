@@ -1,5 +1,10 @@
 """ Test cost_distributor """
+import csv
+import glob
 import logging
+import os
+
+from datetime import datetime
 
 from compute.cost_distributor import cost_distributor
 from setup.data_init import data_init
@@ -15,29 +20,77 @@ class TestCostDistributor(): # pylint: disable=too-few-public-methods
         # Init data
         data = data_init()
 
-        # Get subset of rates
-        rates = [x for x in data['distributor_rates']
-                 if (x.distributor.slug == 'tecteo_resa'
-                     and x.date_start >= '2024-01-01'
-                     and x.date_end <= '2024-12-31')]
+        # Get test data
+        path = 'data/test/be/distributor/rate/'
+        for filename in glob.glob(os.path.join(path, '*_test.csv')):
+            logger.debug(f'filename:{filename}')
+            with open(os.path.join(os.getcwd(), filename), mode='r') as csv_file: #pylint: disable=[unspecified-encoding]
+                mappings = csv.DictReader(csv_file)
+                for row in mappings:
+                    #logger.debug(f'row:{row}')
 
-        #logger.debug(f'rates:{rates}')
+                    # Fetch meter data
+                    if row['description'] == 'meter_data':
 
-        cost_items, amount_eur_total, amount_eur_tincl_total = cost_distributor( # pylint: disable=unused-variable
-            consumed_kwh=1000,
-            consumed_day_kwh=1000,
-            consumed_night_kwh=1000,
-            injected_kwh=100,
-            injected_day_kwh=100,
-            injected_night_kwh=100,
-            peak_kw=10,
-            occurence='daily',
-            distributor_rates=rates,
-            days_in_year=365,
-            days_in_month=30
-        )
+                        consumed_kwh = float(row['consumed_kwh'])
+                        consumed_day_kwh = float(row['consumed_day_kwh'])
+                        consumed_night_kwh = float(row['consumed_night_kwh'])
+                        injected_kwh = float(row['injected_kwh'])
+                        injected_day_kwh = float(row['injected_day_kwh'])
+                        injected_night_kwh = float(row['injected_night_kwh'])
+                        peak_kw = 0
+                        if row['peak_kw'] != '':
+                            peak_kw = float(row['peak_kw'])
 
-        # logger.debug(f'cost_items:{json.dumps(cost_items, indent=4)}')
-        # logger.debug(f'amount_eur_total:{amount_eur_total}')
-        # logger.debug(f'amount_eur_tincl_total:{amount_eur_tincl_total}')
-        
+                    # Fetch common test data
+                    elif row['description'] == 'days_in_month':
+                        days_in_month = int(row['unit'])
+                    elif row['description'] == 'days_in_year':
+                        days_in_year = int(row['unit'])
+                    elif row['description'] == 'prosumer_kw':
+                        prosumer_kw = int(row['unit'])
+                    elif row['description'] == 'peak':
+                        peak = int(row['unit'])
+                    elif row['description'] == 'peak_monthly_avrg':
+                        peak_monthly_avrg = int(row['unit'])
+
+                    # Fetch particular test data
+                    elif row['total_occurence'] != '':
+                        distributor_slug = row['description']
+                        counter_type = row['counter_type']
+                        peak_enabled = row['peak_enabled']
+
+                        date_format = '%Y-%m-%d'
+                        date_start = row['date_start'].strip()
+                        date_end = row['date_end'].strip()
+                        logger.debug(f'date_start:{date_start}')
+                        logger.debug(f'date_end:{date_end}')
+                        date_start = datetime.strptime(date_start, date_format)
+                        date_end = datetime.strptime(date_end, date_format)
+                        expected_amount_eur = float(row['amount_eur'])
+
+                        distributor_rates = [x for x in data['distributor_rates']
+                            if (x.distributor.slug == distributor_slug
+                                and x.date_start >= date_start
+                                and x.date_end <= date_end)]
+
+                        #logger.debug(f'distributor_rates:{distributor_rates}')
+
+                        # Compute cost
+                        cost_items, amount_eur_total, amount_eur_tincl_total = cost_distributor(
+                            consumed_kwh,
+                            consumed_day_kwh,
+                            consumed_night_kwh,
+                            injected_kwh,
+                            injected_day_kwh,
+                            injected_night_kwh,
+                            peak_kw,
+                            row['total_occurence'],
+                            distributor_rates,
+                            days_in_year,
+                            days_in_month
+                        )
+
+                        logger.debug(f'expected_amount_eur:{expected_amount_eur}')
+                        logger.debug(f'amount_eur_total:{amount_eur_total}')
+                        assert round(expected_amount_eur, 1) == round(amount_eur_total, 1)

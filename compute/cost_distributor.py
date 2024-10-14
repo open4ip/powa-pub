@@ -105,6 +105,8 @@ def cost_distributor( # pylint: disable=too-many-arguments, too-many-locals, too
                 # Use all consumed kWh
                 cost_item['amount_eur'] = rate.amount_eur * total_kwh_consumed
 
+            logger.debug(f'cost_item amount_eur: {cost_item["amount_eur"]}')
+
         elif rate.rate_occurrence == 'annual':
             if occurence == 'daily':
                 cost_item['amount_eur'] = rate.amount_eur / days_in_year
