@@ -50,9 +50,9 @@ class TestCostDistributor(): # pylint: disable=too-few-public-methods
                     elif row['description'] == 'prosumer_kw':
                         prosumer_kw = int(row['unit'])
                     elif row['description'] == 'peak':
-                        peak = int(row['unit'])
+                        peak_kw = int(row['unit'])
                     elif row['description'] == 'peak_monthly_avrg':
-                        peak_monthly_avrg = int(row['unit'])
+                        peak_monthly_avrg_kw = int(row['unit'])
 
                     # Fetch particular test data
                     elif row['total_occurence'] != '':
@@ -85,8 +85,12 @@ class TestCostDistributor(): # pylint: disable=too-few-public-methods
                             injected_day_kwh,
                             injected_night_kwh,
                             peak_kw,
+                            peak_monthly_avrg_kw,
+                            prosumer_kw,
                             row['total_occurence'],
                             distributor_rates,
+                            counter_type,
+                            peak_enabled,
                             days_in_year,
                             days_in_month
                         )

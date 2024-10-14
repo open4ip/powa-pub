@@ -13,7 +13,7 @@ ores_brabant_wallon,smart,true,day,per_kwh,distribution_day,0.0037212,21,7:00:00
 ores_brabant_wallon,smart,true,night,per_kwh,distribution_night,0.0037212,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_brabant_wallon,smart,true,night_excl,per_kwh,distribution_night_excl,0.0037212,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_brabant_wallon,smart,true,,annual_per_kw,peak,5.0116324,21,,,,, 2020-01-01, 2020-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_brabant_wallon,smart,true,,annual_per_kw,peak,1.6705441,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_brabant_wallon,smart,true,,annual_per_kw,peak_monthly_avrg,1.6705441,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_brabant_wallon,,,,annual_per_kw,prosumer,64.9724007,21,,,,, 2020-01-01, 2020-12-31,
 ores_brabant_wallon,,,,per_kwh,public_service,0.00728990,21,,,,, 2020-01-01, 2020-12-31,
 ores_brabant_wallon,,,,per_kwh,road_fee,0.00278900,21,,,,, 2020-01-01, 2020-12-31,
@@ -39,7 +39,7 @@ ores_brabant_wallon,smart,true,day,per_kwh,distribution_day,0.003733,21,7:00:00,
 ores_brabant_wallon,smart,true,night,per_kwh,distribution_night,0.003733,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_brabant_wallon,smart,true,night_excl,per_kwh,distribution_night_excl,0.00373300,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_brabant_wallon,smart,true,,annual_per_kw,peak,5.1042470,21,,,,, 2021-01-01, 2021-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_brabant_wallon,smart,true,,annual_per_kw,peak,1.7014157,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_brabant_wallon,smart,true,,annual_per_kw,peak_monthly_avrg,1.7014157,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_brabant_wallon,,,,annual_per_kw,prosumer,65.4838455,21,,,,, 2021-01-01, 2021-12-31,
 ores_brabant_wallon,,,,per_kwh,public_service,0.0071696,21,,,,, 2021-01-01, 2021-12-31,
 ores_brabant_wallon,,,,per_kwh,road_fee,0.00283,21,,,,, 2021-01-01, 2021-12-31,
@@ -65,7 +65,7 @@ ores_brabant_wallon,smart,true,day,per_kwh,distribution_day,0.0037238,21,7:00:00
 ores_brabant_wallon,smart,true,night,per_kwh,distribution_night,0.0037238,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_brabant_wallon,smart,true,night_excl,per_kwh,distribution_night_excl,0.0037238,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_brabant_wallon,smart,true,,annual_per_kw,peak,5.1814393,21,,,,, 2022-01-01, 2022-02-28,Pointe historique pendant la période tarifaire de pointe
-ores_brabant_wallon,smart,true,,annual_per_kw,peak,1.7271464,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
+ores_brabant_wallon,smart,true,,annual_per_kw,peak_monthly_avrg,1.7271464,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
 ores_brabant_wallon,,,,annual_per_kw,prosumer,65.7115318,21,,,,, 2022-01-01, 2022-02-28,
 ores_brabant_wallon,,,,per_kwh,public_service,0.0067986,21,,,,, 2022-01-01, 2022-02-28,
 ores_brabant_wallon,,,,per_kwh,road_fee,0.0028711,21,,,,, 2022-01-01, 2022-02-28,
@@ -91,7 +91,7 @@ ores_brabant_wallon,smart,true,day,per_kwh,distribution_day,0.0037238,6,7:00:00,
 ores_brabant_wallon,smart,true,night,per_kwh,distribution_night,0.0037238,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_brabant_wallon,smart,true,night_excl,per_kwh,distribution_night_excl,0.0037238,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_brabant_wallon,smart,true,,annual_per_kw,peak,5.1814393,6,,,,, 2022-03-01, 2022-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_brabant_wallon,smart,true,,annual_per_kw,peak,1.7271464,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_brabant_wallon,smart,true,,annual_per_kw,peak_monthly_avrg,1.7271464,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_brabant_wallon,,,,annual_per_kw,prosumer,65.7115318,6,,,,, 2022-03-01, 2022-12-31,
 ores_brabant_wallon,,,,per_kwh,public_service,0.0067986,6,,,,, 2022-03-01, 2022-12-31,
 ores_brabant_wallon,,,,per_kwh,road_fee,0.0028711,6,,,,, 2022-03-01, 2022-12-31,
@@ -117,7 +117,7 @@ ores_brabant_wallon,smart,true,day,per_kwh,distribution_day,0.0036659,6,7:00:00,
 ores_brabant_wallon,smart,true,night,per_kwh,distribution_night,0.0036659,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_brabant_wallon,smart,true,night_excl,per_kwh,distribution_night_excl,0.0036659,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_brabant_wallon,smart,true,,annual_per_kw,peak,5.2262951,6,,,,, 2023-01-01, 2023-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_brabant_wallon,smart,true,,annual_per_kw,peak,1.7420984,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_brabant_wallon,smart,true,,annual_per_kw,peak_monthly_avrg,1.7420984,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_brabant_wallon,,,,annual_per_kw,prosumer,65.7216701,6,,,,, 2023-01-01, 2023-12-31,
 ores_brabant_wallon,,,,per_kwh,public_service,0.00658,6,,,,, 2023-01-01, 2023-12-31,
 ores_brabant_wallon,,,,per_kwh,road_fee,0.0029128,6,,,,, 2023-01-01, 2023-12-31,
@@ -143,14 +143,14 @@ ores_brabant_wallon,smart,true,day,per_kwh,distribution_day,0.0049533,6,7:00:00,
 ores_brabant_wallon,smart,true,night,per_kwh,distribution_night,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_brabant_wallon,smart,true,night_excl,per_kwh,distribution_night_excl,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_brabant_wallon,smart,true,,annual_per_kw,peak,5.9569810,6,,,,, 2024-01-01, 2024-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_brabant_wallon,smart,true,,annual_per_kw,peak,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_brabant_wallon,smart,true,,annual_per_kw,peak_monthly_avrg,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_brabant_wallon,,,,annual_per_kw,prosumer,62.4472343,6,,,,, 2024-01-01, 2024-12-31,
 ores_brabant_wallon,,,,annual,injection,13.66,6,,,,, 2024-01-01, 2024-12-31,
 ores_brabant_wallon,,,,per_kwh,injection,2.7401973,6,,,,, 2024-01-01, 2024-12-31,
 ores_brabant_wallon,,,,per_kwh,public_service,0.0094786,6,,,,, 2024-01-01, 2024-12-31,
-ores_brabant_wallon,,,,per_kwh,road_fee,0.0030866,,,,,, 2024-01-01, 2024-12-31,
-ores_brabant_wallon,,,,per_kwh,corp_tax,0.0047213,,,,,, 2024-01-01, 2024-12-31,
-ores_brabant_wallon,,,,per_kwh,other_tax,0.0000069,,,,,, 2024-01-01, 2024-12-31,
+ores_brabant_wallon,,,,per_kwh,road_fee,0.0030866,6,,,,, 2024-01-01, 2024-12-31,
+ores_brabant_wallon,,,,per_kwh,corp_tax,0.0047213,6,,,,, 2024-01-01, 2024-12-31,
+ores_brabant_wallon,,,,per_kwh,other_tax,0.0000069,6,,,,, 2024-01-01, 2024-12-31,
 ores_brabant_wallon,,,,monthly,accise,4.74801887,6,,,,, 2024-01-01, 2024-12-31,
 ores_brabant_wallon,,,,per_kwh,energy_contribution,0.00192642,6,,,,, 2024-01-01, 2024-12-31,
 ores_brabant_wallon,,,,per_kwh,green_certs,0.02858491,6,,,,, 2024-01-01, 2024-12-31,

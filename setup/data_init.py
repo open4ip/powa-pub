@@ -101,7 +101,7 @@ def data_init(): # pylint: disable=too-many-locals, too-many-branches, too-many-
     # Distributor rates
     path = 'data/be/distributor/rate/'
     for filename in glob.glob(os.path.join(path, '*.csv')):
-        #logger.debug(f'filename:{filename}')
+        logger.debug(f'filename:{filename}')
         with open(os.path.join(os.getcwd(), filename), mode='r') as csv_file: #pylint: disable=[unspecified-encoding]
             mappings = csv.DictReader(csv_file)
 
@@ -146,6 +146,7 @@ def data_init(): # pylint: disable=too-many-locals, too-many-branches, too-many-
                         distributor = distributor,
                         cost_type = cost_type,
                         counter_type = counter_type,
+                        peak_enabled = row['peak_enabled'],
                         day_time_type = row['day_time_type'],
                         rate_occurrence = row['rate_occurrence'],
                         amount_eur = row['amount_eur'],

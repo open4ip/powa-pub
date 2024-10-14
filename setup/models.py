@@ -26,6 +26,7 @@ class DistributorRate: # pylint: disable=too-many-instance-attributes
     rate_occurrence: str
     cost_type: str
     counter_type: str
+    peak_enabled: bool
     day_time_type: str
     amount_eur: float
     tax_pct: float

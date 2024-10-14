@@ -13,7 +13,7 @@ ores_mouscron,smart,true,day,per_kwh,distribution_day,0.0037625,21,7:00:00,22:00
 ores_mouscron,smart,true,night,per_kwh,distribution_night,0.0037625,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_mouscron,smart,true,night_excl,per_kwh,distribution_night_excl,0.0037625,21,22:00:00,7:00:00,,, 2020-01-01, 2020-12-31,
 ores_mouscron,smart,true,,annual_per_kw,peak,6.2189908,21,,,,, 2020-01-01, 2020-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_mouscron,smart,true,,annual_per_kw,peak,2.0729969,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_mouscron,smart,true,,annual_per_kw,peak_monthly_avrg,2.0729969,21,,,,, 2020-01-01, 2020-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_mouscron,,,,annual_per_kw,prosumer,65.1321210,21,,,,, 2020-01-01, 2020-12-31,
 ores_mouscron,,,,per_kwh,public_service,0.01024190,21,,,,, 2020-01-01, 2020-12-31,
 ores_mouscron,,,,per_kwh,road_fee,0.00280470,21,,,,, 2020-01-01, 2020-12-31,
@@ -39,7 +39,7 @@ ores_mouscron,smart,true,day,per_kwh,distribution_day,0.0037877,21,7:00:00,22:00
 ores_mouscron,smart,true,night,per_kwh,distribution_night,0.0037877,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_mouscron,smart,true,night_excl,per_kwh,distribution_night_excl,0.00378770,21,22:00:00,7:00:00,,, 2021-01-01, 2021-12-31,
 ores_mouscron,smart,true,,annual_per_kw,peak,6.3439227,21,,,,, 2021-01-01, 2021-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_mouscron,smart,true,,annual_per_kw,peak,2.1146409,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_mouscron,smart,true,,annual_per_kw,peak_monthly_avrg,2.1146409,21,,,,, 2021-01-01, 2021-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_mouscron,,,,annual_per_kw,prosumer,65.83987450,21,,,,, 2021-01-01, 2021-12-31,
 ores_mouscron,,,,per_kwh,public_service,0.0102465,21,,,,, 2021-01-01, 2021-12-31,
 ores_mouscron,,,,per_kwh,road_fee,0.0028479,21,,,,, 2021-01-01, 2021-12-31,
@@ -65,7 +65,7 @@ ores_mouscron,smart,true,day,per_kwh,distribution_day,0.00382990,21,7:00:00,22:0
 ores_mouscron,smart,true,night,per_kwh,distribution_night,0.00382990,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_mouscron,smart,true,night_excl,per_kwh,distribution_night_excl,0.0038299,21,22:00:00,7:00:00,,, 2022-01-01, 2022-02-28,
 ores_mouscron,smart,true,,annual_per_kw,peak,6.4591294,21,,,,, 2022-01-01, 2022-02-28,Pointe historique pendant la période tarifaire de pointe
-ores_mouscron,smart,true,,annual_per_kw,peak,2.1530431,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
+ores_mouscron,smart,true,,annual_per_kw,peak_monthly_avrg,2.1530431,21,,,,, 2022-01-01, 2022-02-28,Pointe du mois pendant la période tarifaire de pointe
 ores_mouscron,,,,annual_per_kw,prosumer,66.3695001,21,,,,, 2022-01-01, 2022-02-28,
 ores_mouscron,,,,per_kwh,public_service,0.0100727,21,,,,, 2022-01-01, 2022-02-28,
 ores_mouscron,,,,per_kwh,road_fee,0.0028915,21,,,,, 2022-01-01, 2022-02-28,
@@ -91,7 +91,7 @@ ores_mouscron,smart,true,day,per_kwh,distribution_day,0.00382990,6,7:00:00,22:00
 ores_mouscron,smart,true,night,per_kwh,distribution_night,0.00382990,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_mouscron,smart,true,night_excl,per_kwh,distribution_night_excl,0.0038299,6,22:00:00,7:00:00,,, 2022-03-01, 2022-12-31,
 ores_mouscron,smart,true,,annual_per_kw,peak,6.4591294,6,,,,, 2022-03-01, 2022-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_mouscron,smart,true,,annual_per_kw,peak,2.1530431,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_mouscron,smart,true,,annual_per_kw,peak_monthly_avrg,2.1530431,6,,,,, 2022-03-01, 2022-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_mouscron,,,,annual_per_kw,prosumer,66.3695001,6,,,,, 2022-03-01, 2022-12-31,
 ores_mouscron,,,,per_kwh,public_service,0.0100727,6,,,,, 2022-03-01, 2022-12-31,
 ores_mouscron,,,,per_kwh,road_fee,0.0028915,6,,,,, 2022-03-01, 2022-12-31,
@@ -117,7 +117,7 @@ ores_mouscron,smart,true,day,per_kwh,distribution_day,0.0037981,6,7:00:00,22:00:
 ores_mouscron,smart,true,night,per_kwh,distribution_night,0.0037981,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_mouscron,smart,true,night_excl,per_kwh,distribution_night_excl,0.0037981,6,22:00:00,7:00:00,,, 2023-01-01, 2023-12-31,
 ores_mouscron,smart,true,,annual_per_kw,peak,6.5408601,6,,,,, 2023-01-01, 2023-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_mouscron,smart,true,,annual_per_kw,peak,2.1802867,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_mouscron,smart,true,,annual_per_kw,peak_monthly_avrg,2.1802867,6,,,,, 2023-01-01, 2023-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_mouscron,,,,annual_per_kw,prosumer,67.9859034,6,,,,, 2023-01-01, 2023-12-31,
 ores_mouscron,,,,per_kwh,public_service,0.0099625,6,,,,, 2023-01-01, 2023-12-31,
 ores_mouscron,,,,per_kwh,road_fee,0.0029357,6,,,,, 2023-01-01, 2023-12-31,
@@ -143,7 +143,7 @@ ores_mouscron,smart,true,day,per_kwh,distribution_day,0.0049533,6,7:00:00,22:00:
 ores_mouscron,smart,true,night,per_kwh,distribution_night,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_mouscron,smart,true,night_excl,per_kwh,distribution_night_excl,0.0049533,6,22:00:00,7:00:00,,, 2024-01-01, 2024-12-31,
 ores_mouscron,smart,true,,annual_per_kw,peak,5.9569810,6,,,,, 2024-01-01, 2024-12-31,Pointe historique pendant la période tarifaire de pointe
-ores_mouscron,smart,true,,annual_per_kw,peak,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
+ores_mouscron,smart,true,,annual_per_kw,peak_monthly_avrg,1.9856603,6,,,,, 2024-01-01, 2024-12-31,Pointe du mois pendant la période tarifaire de pointe
 ores_mouscron,,,,annual_per_kw,prosumer,62.4472343,6,,,,, 2024-01-01, 2024-12-31,
 ores_mouscron,,,,annual,injection,13.66,6,,,,, 2024-01-01, 2024-12-31,
 ores_mouscron,,,,per_kwh,injection,2.7401973,6,,,,, 2024-01-01, 2024-12-31,

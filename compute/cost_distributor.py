@@ -8,8 +8,12 @@ def cost_distributor( # pylint: disable=too-many-arguments, too-many-locals, too
         consumed_kwh, consumed_day_kwh, consumed_night_kwh,
         injected_kwh, injected_day_kwh, injected_night_kwh, # pylint: disable=unused-argument
         peak_kw,
+        peak_monthly_avrg_kw,
+        prosumer_kw,
         occurence,
         distributor_rates,
+        meter_type,
+        peak_enabled,
         days_in_year,
         days_in_month
     ):
@@ -24,11 +28,17 @@ def cost_distributor( # pylint: disable=too-many-arguments, too-many-locals, too
     - injected_day_kwh. Integer. Optional. Injected day kWh (off peak hours)
     - injected_night_kwh. Integer. Optional. Injected night kWh (peak hours)
     - peak_kw. Integer. Optional. Peak power in kW during the period.
+    - peak_monthly_avrg_kw. Integer. Optional. Peak power in kW during the month.
+    - prosumer_kw. Integer. Optional. Prosumer installk power in kW.
     - occurence. Type of time frame. Enum of
         - daily
         - monthly
         - hourly
     - distributor_rates. List of distributor rates object to be considered.
+    - meter_type. String. Type of meter. Enum of
+        - simple
+        - smart
+    - peak_enabled. Boolean. True if peak power is enabled.
     - days_in_year. Integer. Number of days in the year.
     - days_in_month. Integer. Number of days in the month.
 
@@ -77,35 +87,40 @@ def cost_distributor( # pylint: disable=too-many-arguments, too-many-locals, too
         rate.tax_pct = float(rate.tax_pct)
 
         if rate.rate_occurrence == 'per_kwh':
-            if rate.cost_type.slug == 'distribution_simple':
-                cost_item['amount_eur'] = rate.amount_eur * consumed_kwh
 
-            elif rate.cost_type.slug == 'distribution_day':
-                cost_item['amount_eur'] = rate.amount_eur * consumed_day_kwh
+            # For simple and smart meter rates only
+            if meter_type == rate.counter_type:
+                if (meter_type == 'simple'
+                    or (meter_type == 'smart' and peak_enabled == rate.peak_enabled)):
+                    if rate.cost_type.slug == 'distribution_simple':
+                        cost_item['amount_eur'] = rate.amount_eur * consumed_kwh
 
-            elif rate.cost_type.slug == 'distribution_night':
-                cost_item['amount_eur'] = rate.amount_eur * consumed_night_kwh
+                    elif rate.cost_type.slug == 'distribution_day':
+                        cost_item['amount_eur'] = rate.amount_eur * consumed_day_kwh
 
-            # elif rate.cost_type == 'distribution_night_excl':
-            # TBD
-            elif rate.cost_type.slug in ['transport',
-                                    'energy_contribution',
-                                    'connection',
-                                    'green_certs',
-                                    'cogen']:
+                    elif rate.cost_type.slug == 'distribution_night':
+                        cost_item['amount_eur'] = rate.amount_eur * consumed_night_kwh
+
+            # Non dependent on meter type - Injection
+            elif rate.cost_type.slug == 'injection':
+                # Total kwh injected
+                total_kwh_injected = (injected_kwh
+                                      + injected_day_kwh
+                                      + injected_night_kwh)
+                cost_item['amount_eur'] = rate.amount_eur * total_kwh_injected
+
+            # Non dependent on meter type - Other
+            elif rate.cost_type.slug not in ['distribution_simple',
+                                             'distribution_day',
+                                             'distribution_night',
+                                             'distribution_night_excl']:
                 # Total kwh consummed
                 total_kwh_consumed = (consumed_kwh
-                                        + consumed_day_kwh
-                                        + consumed_night_kwh)
-                # Total kwh injected
-                # total_kwh_injected = (injected_kwh
-                #                         + injected_day_kwh
-                #                         + injected_night_kwh)
+                                      + consumed_day_kwh
+                                      + consumed_night_kwh)
 
                 # Use all consumed kWh
                 cost_item['amount_eur'] = rate.amount_eur * total_kwh_consumed
-
-            logger.debug(f'cost_item amount_eur: {cost_item["amount_eur"]}')
 
         elif rate.rate_occurrence == 'annual':
             if occurence == 'daily':
@@ -125,23 +140,34 @@ def cost_distributor( # pylint: disable=too-many-arguments, too-many-locals, too
 
         elif rate.rate_occurrence == 'annual_per_kw':
             if rate.cost_type.slug == 'prosumer':
-                pass
+                cost_item['amount_eur'] = rate.amount_eur * prosumer_kw
 
-            elif rate.cost_type.slug == 'peak_monthly_avrg':
-                if occurence == 'daily':
-                    cost_item['amount_eur'] = rate.amount_eur * peak_kw / days_in_year
-                elif occurence == 'monthly':
-                    cost_item['amount_eur'] = rate.amount_eur * peak_kw / 12
-                elif occurence == 'hourly':
-                    cost_item['amount_eur'] = rate.amount_eur * peak_kw / (days_in_month * 24)
+            elif (meter_type == 'smart'
+                  and peak_enabled == rate.peak_enabled
+                  and peak_enabled):
 
-            elif rate.cost_type.slug == 'capacity':
-                if rate.counter_type == 'smart':
-                    pass
-                elif rate.counter_type == 'classic':
-                    pass
-                else:
-                    pass
+                if rate.cost_type.slug == 'peak_monthly_avrg':
+                    cost_item['amount_eur'] = rate.amount_eur * peak_monthly_avrg_kw
+
+                elif rate.cost_type.slug == 'peak':
+                    cost_item['amount_eur'] = rate.amount_eur * peak_kw
+
+            if occurence == 'monthly':
+                cost_item['amount_eur'] = cost_item['amount_eur'] / 12
+            elif occurence == 'daily':
+                cost_item['amount_eur'] = cost_item['amount_eur'] / days_in_year
+            elif occurence == 'hourly':
+                cost_item['amount_eur'] = cost_item['amount_eur'] / (days_in_year * 24)
+
+            # elif rate.cost_type.slug == 'capacity':
+            #     if rate.counter_type == 'smart':
+            #         pass
+            #     elif rate.counter_type == 'classic':
+            #         pass
+            #     else:
+            #         pass
+
+        logger.debug(f'cost_item amount_eur: {cost_item["amount_eur"]} type: {cost_item["type"]}')
 
         cost_item['amount_eur_tincl'] = cost_item['amount_eur'] * (1 + rate.tax_pct / 100)
 
