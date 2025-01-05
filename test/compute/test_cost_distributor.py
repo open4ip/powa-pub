@@ -63,18 +63,27 @@ class TestCostDistributor(): # pylint: disable=too-few-public-methods
                         date_format = '%Y-%m-%d'
                         date_start = row['date_start'].strip()
                         date_end = row['date_end'].strip()
-                        logger.debug(f'date_start:{date_start}')
-                        logger.debug(f'date_end:{date_end}')
+                        #logger.debug(f'date_start:{date_start}')
+                        #logger.debug(f'date_end:{date_end}')
                         date_start = datetime.strptime(date_start, date_format)
                         date_end = datetime.strptime(date_end, date_format)
                         expected_amount_eur = float(row['amount_eur'])
 
                         distributor_rates = [x for x in data['distributor_rates']
                             if (x.distributor.slug == distributor_slug
-                                and x.date_start >= date_start
-                                and x.date_end <= date_end)]
+                                and x.date_start <= date_start
+                                and x.date_end >= date_end)]
+                        
+                        # distributor_rates = []
+                        # for rate in data['distributor_rates']:
+                        #     if filename == 'data/test/be/distributor/rate/fluvius_antwerpen_test.csv' and rate.distributor.slug == 'fluvius_antwerpen':
+                        #         logger.debug(f'rate.date_start:{rate.date_start} date_start:{date_start}-')
+                        #         logger.debug(f'rate.date_start <= date_end:{rate.date_start <= date_end}')
 
-                        #logger.debug(f'distributor_rates:{distributor_rates}')
+                        # logger.debug(f'distributor_rates len:{len(distributor_rates)}')
+                        # for distributor_rate in distributor_rates:
+                        #     logger.debug(f'distributor_rate:{distributor_rate}')
+                            
 
                         # Compute cost
                         cost_items, amount_eur_total, amount_eur_tincl_total = cost_distributor( # pylint: disable=unused-variable
